@@ -37,8 +37,8 @@
 	<message key="author.submit.qualifyForWaiver">Please consider waiving the Article Submission Fee for this article</message>
 	<message key="author.submit.addReasonsForWaiver">Please use the comments box below to indicate why fees should be waived.</message>
 	<message key="author.submit.mustEnterWaiverReason">If you are applying for a waiver, you must enter a reason in the space provided.</message>
-	<message key="author.submissions.queuedReviewSubsequent">In Review Round {$round}</message>
-	<message key="author.submissions.queuedReviewRevisions">In Review: Revisions Required</message>
+	<message key="author.submissions.queuedReviewSubsequent">In Reflection Round {$round}</message>
+	<message key="author.submissions.queuedReviewRevisions">In Reflection: Revisions Requested</message>
 	<message key="author.submissions.queuedEditingCopyedit">In Editing: Copyedit Requested</message>
 	<message key="author.submissions.queuedEditingProofread">In Editing: Proofread Requested</message>
 	<message key="author.submissions.uploadCopyeditedVersion">Upload Copyedited Version</message>
@@ -95,7 +95,7 @@
 	<message key="author.submit.suppFile.dataSet">Data Set</message>
 	<message key="author.submit.suppFile.sourceText">Source Text</message>
 	<message key="author.submit.suppFile.briefDescription">Brief description</message>
-	<message key="author.submit.suppFile.availableToPeers">Present file to reviewers (without metadata), as it will not compromise blind review.</message>
+	<message key="author.submit.suppFile.availableToPeers">Present file to reflecters (without metadata).</message>
 	<message key="author.submit.suppFile.publisherDescription">Use only with formally published materials.</message>
 	<message key="author.submit.suppFile.dateDescription">Date when data was collected or instrument created.</message>
 	<message key="author.submit.suppFile.sourceDescription">Name of study or other point of origin.</message>
