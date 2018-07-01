@@ -70,23 +70,23 @@ Thank you,<br />
 		<description>This email is sent to a newly registered user to validate their email account.</description>
 	</email_text>
 	<email_text key="REVIEWER_REGISTER">
-		<subject>Registration as Reviewer with {$contextName}</subject>
-		<body><![CDATA[In light of your expertise, we have taken the liberty of registering your name in the reviewer database for {$contextName}. This does not entail any form of commitment on your part, but simply enables us to approach you with a submission to possibly review. On being invited to review, you will have an opportunity to see the title and abstract of the paper in question, and you'll always be in a position to accept or decline the invitation. You can also ask at any point to have your name removed from this reviewer list.<br />
+		<subject>Registration as Reflector with {$contextName}</subject>
+		<body><![CDATA[In light of your expertise, we have taken the liberty of registering your name in the reflector database for {$contextName}. This does not entail any form of commitment on your part, but simply enables us to invite you as a reflector on submissions. On being invited, you will have an opportunity to see the title and abstract of the paper in question, and you'll always be in a position to accept or decline the invitation. You can also ask at any point to have your name removed from this reflector list.<br />
 <br />
-We are providing you with a username and password, which is used in all interactions with the journal through its website. You may wish, for example, to update your profile, including your reviewing interests.<br />
+We are providing you with a username and password, which is used in all interactions with the journal through its website. You may wish, for example, to update your profile, including your reflecting interests.<br />
 <br />
 Username: {$username}<br />
 Password: {$password}<br />
 <br />
 Thank you,<br />
 {$principalContactSignature}]]></body>
-		<description>This email is sent to a newly registered reviewer to welcome them to the system and provide them with a record of their username and password.</description>
+		<description>This email is sent to a newly registered reflector to welcome them to the system and provide them with a record of their username and password.</description>
 	</email_text>
 	<email_text key="PUBLISH_NOTIFY">
 		<subject>New Issue Published</subject>
 		<body><![CDATA[Readers:<br />
 <br />
-{$contextName} has just published its latest issue at {$contextUrl}. We invite you to review the Table of Contents here and then visit our web site to review articles and items of interest.<br />
+{$contextName} has just published its latest issue at {$contextUrl}. We invite you to review the Table of Contents here and then visit our web site to consider articles and items of interest.<br />
 <br />
 Thanks for the continuing interest in our work,<br />
 {$editorialContactSignature}]]></body>
@@ -128,7 +128,7 @@ Thank you,<br />
 		<subject>Submission Acknowledgement</subject>
 		<body><![CDATA[{$authorName}:<br />
 <br />
-Thank you for submitting the manuscript, &quot;{$submissionTitle}&quot; to {$contextName}. With the online journal management system that we are using, you will be able to track its progress through the editorial process by logging in to the journal web site:<br />
+Thank you for submitting the manuscript, &quot;{$submissionTitle}&quot; to {$contextName}. With the online journal management system that we are using, you will be able to track its progress by logging in to the journal web site:<br />
 <br />
 Submission URL: {$submissionUrl}<br />
 Username: {$authorUsername}<br />
@@ -139,7 +139,7 @@ If you have any questions, please contact me. Thank you for considering this jou
 		<description>This email, when enabled, is automatically sent to an author when he or she completes the process of submitting a manuscript to the journal. It provides information about tracking the submission through the process and thanks the author for the submission.</description>
 	</email_text>
 	<email_text key="SUBMISSION_ACK_NOT_USER">
-		<subject>Submission Acknowledgement</subject>
+		<subject>Submission Acknowledgement for co-creators</subject>
 		<body><![CDATA[Hello,<br />
 <br />
 {$submitterName} has submitted the manuscript, &quot;{$submissionTitle}&quot; to {$contextName}. <br />
@@ -150,27 +150,27 @@ If you have any questions, please contact me. Thank you for considering this jou
 		<description>This email, when enabled, is automatically sent to the other authors who are not users within OJS specified during the submission process.</description>
 	</email_text>
 	<email_text key="EDITOR_ASSIGN">
-		<subject>Editorial Assignment</subject>
+		<subject>Request to serve as Section Facilitator</subject>
 		<body><![CDATA[{$editorialContactName}:<br />
 <br />
-The submission, &quot;{$submissionTitle},&quot; to {$contextName} has been assigned to you to see through the editorial process in your role as Section Editor.<br />
+The submission, &quot;{$submissionTitle},&quot; to {$contextName} has been assigned to you to see through the editorial process in your role as Section Facilitator.<br />
 <br />
 Submission URL: {$submissionUrl}<br />
 Username: {$editorUsername}<br />
 <br />
 Thank you,<br />
 {$editorialContactSignature}]]></body>
-		<description>This email notifies a Section Editor that the Editor has assigned them the task of overseeing a submission through the editing process. It provides information about the submission and how to access the journal site.</description>
+		<description>This email notifies a Section Facilitator that the Facilitator has requested that they oversee a submission through the editing process. It provides information about the submission and how to access the journal site.</description>
 	</email_text>
 	<email_text key="REVIEW_REQUEST">
-		<subject>Article Review Request</subject>
+		<subject>Request to serve as a Reflector</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
-I believe that you would serve as an excellent reviewer of the manuscript, &quot;{$submissionTitle},&quot; which has been submitted to {$contextName}. The submission's abstract is inserted below, and I hope that you will consider undertaking this important task for us.<br />
+I believe that you would serve as an excellent reflector of the manuscript, &quot;{$submissionTitle},&quot; which has been submitted to {$contextName}. The submission's abstract is inserted below, and I hope that you will consider undertaking this important service.<br />
 <br />
-Please log into the journal web site by {$responseDueDate} to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is {$contextUrl}<br />
+Please log into the journal web site by {$responseDueDate} to indicate whether you will serve as a reflector or not, as well as to access the submission and to record your reflection and recommendation. The web site is {$contextUrl}<br />
 <br />
-The review itself is due {$reviewDueDate}.<br />
+The reflection itself is due {$reviewDueDate}.<br />
 <br />
 If you do not have your username and password for the journal's web site, you can use this link to reset your password (which will then be emailed to you along with your username). {$passwordResetUrl}<br />
 <br />
@@ -183,18 +183,18 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></body>
-		<description>This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review. (Otherwise see REVIEW_REQUEST_ATTACHED.)</description>
+		<description>This email from the Section Facilitator to a Reflector requests that the reflector accept or decline the invitation to reflect on a submission. It provides information about the submission such as the title and abstract, a reflection due date, and how to access the submission itself. This message is used when the Standard Reflection Process is selected in Management &gt; Settings &gt; Workflow &gt; Reflection. (Otherwise see REVIEW_REQUEST_ATTACHED.)</description>
 	</email_text>
 	<email_text key="REVIEW_REQUEST_REMIND_AUTO">
-		<subject>Article Review Request</subject>
+		<subject>Gentle reminder: Are you available as a Reflector?</subject>
 		<body><![CDATA[{$reviewerName}:<br />
-Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have your response by {$responseDueDate}, and this email has been automatically generated and sent with the passing of that date.
+Just a gentle reminder of our request for you to serve as a reflector on the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have your response by {$responseDueDate}, and this email has been automatically generated and sent with the passing of that date.
 <br />
-I believe that you would serve as an excellent reviewer of the manuscript. The submission's abstract is inserted below, and I hope that you will consider undertaking this important task for us.<br />
+I believe that you would serve as an excellent reflector of the manuscript. The submission's abstract is inserted below, and I hope that you can commit to providing your perspectives.<br />
 <br />
-Please log into the journal web site to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is {$contextUrl}<br />
+Please log into the journal web site to indicate whether you will serve as a reflector or not, as well as to access the submission and to record your reflection and recommendation. The web site is {$contextUrl}<br />
 <br />
-The review itself is due {$reviewDueDate}.<br />
+The reflection itself is due {$reviewDueDate}.<br />
 <br />
 If you do not have your username and password for the journal's web site, you can use this link to reset your password (which will then be emailed to you along with your username). {$passwordResetUrl}<br />
 <br />
@@ -207,17 +207,17 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></body>
-		<description>This email is automatically sent when a reviewer's confirmation due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).</description>
+		<description>This email is automatically sent when a reflector's confirmation due date elapses (see Reflection Options under Settings &gt; Workflow &gt; Reflection) and one-click reflector access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).</description>
 	</email_text>
 	<email_text key="REVIEW_REQUEST_ONECLICK">
-		<subject>Article Review Request</subject>
+		<subject>Request to serve as a Reflector</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
-I believe that you would serve as an excellent reviewer of the manuscript, &quot;{$submissionTitle},&quot; which has been submitted to {$contextName}. The submission's abstract is inserted below, and I hope that you will consider undertaking this important task for us.<br />
+I believe that you would serve as an excellent reflector of the manuscript, &quot;{$submissionTitle},&quot; which has been submitted to {$contextName}. The submission's abstract is inserted below, and I hope that you can commit to providing your perspective on this piece.<br />
 <br />
-Please log into the journal web site by {$responseDueDate} to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation.<br />
+Please log into the journal web site by {$responseDueDate} to indicate whether you will serve as a reflector or not, as well as to access the submission and to record your reflection and recommendation.<br />
 <br />
-The review itself is due {$reviewDueDate}.<br />
+The reflection itself is due {$reviewDueDate}.<br />
 <br />
 Submission URL: {$submissionReviewUrl}<br />
 <br />
@@ -228,18 +228,18 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></body>
-		<description>This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review, and one-click reviewer access is enabled.</description>
+		<description>This email from the Section Facilitator to a Reflector requests that the reflector accept or decline the request to serve. It provides information about the submission such as the title and abstract, a reflection due date, and how to access the submission itself. This message is used when the Standard Reflection Process is selected in Management &gt; Settings &gt; Workflow &gt; reflection, and one-click reflector access is enabled.</description>
 	</email_text>
 	<email_text key="REVIEW_REQUEST_REMIND_AUTO_ONECLICK">
-		<subject>Article Review Request</subject>
+		<subject>Gentle reminder: Are you available as a Reflector?</subject>
 		<body><![CDATA[{$reviewerName}:<br />
-Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have your response by {$responseDueDate}, and this email has been automatically generated and sent with the passing of that date.
+Just a gentle reminder of our request for you to serve as a Reflector on the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have your response by {$responseDueDate}, and this email has been automatically generated and sent with the passing of that date.
 <br />
-I believe that you would serve as an excellent reviewer of the manuscript. The submission's abstract is inserted below, and I hope that you will consider undertaking this important task for us.<br />
+I believe that you would serve as an excellent reflector of the manuscript. The submission's abstract is inserted below, and I hope that you will contribute your perspectives as a reflector.<br />
 <br />
-Please log into the journal web site to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation.<br />
+Please log into the journal web site to indicate whether you will accept the request to serve as a reflector or not, as well as to access the submission and to record your reflection and recommendation.<br />
 <br />
-The review itself is due {$reviewDueDate}.<br />
+The reflection itself is due {$reviewDueDate}.<br />
 <br />
 Submission URL: {$submissionReviewUrl}<br />
 <br />
@@ -250,38 +250,38 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></body>
-		<description>This email is automatically sent when a reviewer's confirmation due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).</description>
+		<description>This email is automatically sent when a reflector's confirmation due date elapses (see Reflection Options under Settings &gt; Workflow &gt; Reflection) and one-click reflector access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).</description>
 	</email_text>
 	<email_text key="REVIEW_REQUEST_ATTACHED">
-		<subject>Article Review Request</subject>
+		<subject>Request to serve as a Reflector</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
-I believe that you would serve as an excellent reviewer of the manuscript, &quot;{$submissionTitle},&quot; and I am asking that you consider undertaking this important task for us. The Review Guidelines for this journal are appended below, and the submission is attached to this email. Your review of the submission, along with your recommendation, should be emailed to me by {$reviewDueDate}.<br />
+I believe that you would serve as an excellent reflector of the manuscript, &quot;{$submissionTitle},&quot; and I am writing to request that you consider contributing your perspective as part of reflector group. The Reflection Guidelines for this journal are appended below, and the submission is attached to this email. Your reflection of the submission, along with your recommendation, should be emailed to me by {$reviewDueDate}.<br />
 <br />
-Please indicate in a return email by {$responseDueDate} whether you are able and willing to do the review.<br />
+Please indicate in a return email by {$responseDueDate} whether you are able and willing to do the reflection.<br />
 <br />
 Thank you for considering this request.<br />
 <br />
 {$editorialContactSignature}<br />
 <br />
 <br />
-Review Guidelines<br />
+Reflection Guidelines<br />
 <br />
 {$reviewGuidelines}<br />
 ]]></body>
-		<description>This email is sent by the Section Editor to a Reviewer to request that they accept or decline the task of reviewing a submission. It includes the submission as an attachment. This message is used when the Email-Attachment Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review. (Otherwise see REVIEW_REQUEST.)</description>
+		<description>This email is sent by the Section Facilitator to a Reflector to request that they accept or decline the request to serve. It includes the submission as an attachment. This message is used when the Email-Attachment Reflection Process is selected in Management &gt; Settings &gt; Workflow &gt; Reflection. (Otherwise see REVIEW_REQUEST.)</description>
 	</email_text>
 	<email_text key="REVIEW_REQUEST_SUBSEQUENT">
-		<subject>Article Review Request</subject>
+		<subject>Reflection request : Revised submission</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
 This regards the manuscript &quot;{$submissionTitle},&quot; which is under consideration by {$contextName}.<br />
 <br />
-Following the review of the previous version of the manuscript, the authors have now submitted a revised version of their paper. We would appreciate it if you could help evaluate it.<br />
+Following the reflection of the previous version of the manuscript, the creators have now submitted a revised version. Would you consider serving as a reflector for this revised version?<br />
 <br />
-Please log into the journal web site by {$responseDueDate} to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is {$contextUrl}<br />
+Please log into the journal web site by {$responseDueDate} to indicate whether you will accept the request to serve as a reflector or not, as well as to access the submission and to record your reflection and recommendation. The web site is {$contextUrl}<br />
 <br />
-The review itself is due {$reviewDueDate}.<br />
+The reflection itself is due {$reviewDueDate}.<br />
 <br />
 If you do not have your username and password for the journal's web site, you can use this link to reset your password (which will then be emailed to you along with your username). {$passwordResetUrl}<br />
 <br />
@@ -294,19 +294,19 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></body>
-		<description>This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission for a second or greater round of review. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review. (Otherwise see REVIEW_REQUEST_ATTACHED_SUBSEQUENT.)</description>
+		<description>This email from the Section Facilitator to a Reflector requests that the reflector accept or decline the request to reflect for a second or greater round of reflection. It provides information about the submission such as the title and abstract, a reflection due date, and how to access the submission itself. This message is used when the Standard Reflection Process is selected in Management &gt; Settings &gt; Workflow &gt; Reflection. (Otherwise see REVIEW_REQUEST_ATTACHED_SUBSEQUENT.)</description>
 	</email_text>
 	<email_text key="REVIEW_REQUEST_ONECLICK_SUBSEQUENT">
-		<subject>Article Review Request</subject>
+		<subject>Reflection request : Revised submission</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
 This regards the manuscript &quot;{$submissionTitle},&quot; which is under consideration by {$contextName}.<br />
 <br />
-Following the review of the previous version of the manuscript, the authors have now submitted a revised version of their paper. We would appreciate it if you could help evaluate it.<br />
+Following the reflection of the previous version of the manuscript, the authors have now submitted a revised version of their paper. We would appreciate it if you could help evaluate it.<br />
 <br />
-Please log into the journal web site by {$responseDueDate} to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation.<br />
+Please log into the journal web site by {$responseDueDate} to indicate whether you will accept the request to serve as a reflector or not, as well as to access the submission and to record your reflection and recommendation.<br />
 <br />
-The review itself is due {$reviewDueDate}.<br />
+The reflection itself is due {$reviewDueDate}.<br />
 <br />
 Submission URL: {$submissionReviewUrl}<br />
 <br />
@@ -317,19 +317,19 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></body>
-		<description>This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission for a second or greater round of review. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review, and one-click reviewer access is enabled.</description>
+		<description>This email from the Section Facilitator to a Reflector requests that the reflector accept or decline the request to reflect for a second or greater round of reflection. It provides information about the submission such as the title and abstract, a reflection due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review, and one-click reflector access is enabled.</description>
 	</email_text>
 	<email_text key="REVIEW_REQUEST_ATTACHED_SUBSEQUENT">
-		<subject>Article Review Request</subject>
+		<subject>Request to serve as a Reflector</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
 This regards the manuscript &quot;{$submissionTitle},&quot; which is under consideration by {$contextName}.<br />
 <br />
-Following the review of the previous version of the manuscript, the authors have now submitted a revised version of their paper. We would appreciate it if you could help evaluate it.<br />
+Following the reflection on the previous version of the manuscript, the authors have now submitted a revised version of their paper. We would appreciate it if you would provide your perspective on it.<br />
 <br />
-The Review Guidelines for this journal are appended below, and the submission is attached to this email. Your review of the submission, along with your recommendation, should be emailed to me by {$reviewDueDate}.<br />
+The Reflection Guidelines for this journal are appended below, and the submission is attached to this email. Your reflection of the submission, along with your recommendation, should be emailed to me by {$reviewDueDate}.<br />
 <br />
-Please indicate in a return email by {$responseDueDate} whether you are able and willing to do the review.<br />
+Please indicate in a return email by {$responseDueDate} whether you are able and willing to serve as a reflector.<br />
 <br />
 Thank you for considering this request.<br />
 <br />
@@ -340,79 +340,79 @@ Review Guidelines<br />
 <br />
 {$reviewGuidelines}<br />
 ]]></body>
-		<description>This email is sent by the Section Editor to a Reviewer to request that they accept or decline the task of reviewing a submission for a second or greater round of review. It includes the submission as an attachment. This message is used when the Email-Attachment Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review. (Otherwise see REVIEW_REQUEST_SUBSEQUENT.)</description>
+		<description>This email is sent by the Section Facilitator to a Reflector to request that they accept or decline to serve as a reflector for a second or greater round of reflection. It includes the submission as an attachment. This message is used when the Email-Attachment Refelction Process is selected in Management &gt; Settings &gt; Workflow &gt; Reflection. (Otherwise see REVIEW_REQUEST_SUBSEQUENT.)</description>
 	</email_text>
 	<email_text key="REVIEW_CANCEL">
-		<subject>Request for Review Cancelled</subject>
+		<subject>Request for reflection cancelled</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
-We have decided at this point to cancel our request for you to review the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We apologize for any inconvenience this may cause you and hope that we will be able to call on you to assist with this journal's review process in the future.<br />
+We have decided at this point to cancel our request for you to reflection the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We apologize for any inconvenience this may cause you and hope that we will be able to call on you to assist with this journal's reflection process in the future.<br />
 <br />
 If you have any questions, please contact me.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>This email is sent by the Section Editor to a Reviewer who has a submission review in progress to notify them that the review has been cancelled.</description>
+		<description>This email is sent by the Section Facilitator to a Reflector who has a submission reflection in progress to notify them that the reflection has been cancelled.</description>
 	</email_text>
 	<email_text key="REVIEW_CONFIRM">
-		<subject>Able to Review</subject>
+		<subject>Available as Reflector</subject>
 		<body><![CDATA[Editors:<br />
 <br />
-I am able and willing to review the submission, &quot;{$submissionTitle},&quot; for {$contextName}. Thank you for thinking of me, and I plan to have the review completed by its due date, {$reviewDueDate}, if not before.<br />
+I am able and willing to reflect on the submission, &quot;{$submissionTitle},&quot; for {$contextName}. Thank you for thinking of me, and I plan to complete the reflection by its due date, {$reviewDueDate}, if not before.<br />
 <br />
 {$reviewerName}]]></body>
-		<description>This email is sent by a Reviewer to the Section Editor in response to a review request to notify the Section Editor that the review request has been accepted and will be completed by the specified date.</description>
+		<description>This email is sent by a Reflector to the Section Facilitator in response to a reflection request to notify the Section Facilitator that the reflection request has been accepted and will be completed by the specified date.</description>
 	</email_text>
 	<email_text key="REVIEW_DECLINE">
-		<subject>Unable to Review</subject>
+		<subject>Unavailable as Reflector</subject>
 		<body><![CDATA[Editors:<br />
 <br />
-I am afraid that at this time I am unable to review the submission, &quot;{$submissionTitle},&quot; for {$contextName}. Thank you for thinking of me, and another time feel free to call on me.<br />
+At this time, I am unavailable to serve as a reflector on the submission, &quot;{$submissionTitle},&quot; for {$contextName}. <br />
 <br />
 {$reviewerName}]]></body>
-		<description>This email is sent by a Reviewer to the Section Editor in response to a review request to notify the Section Editor that the review request has been declined.</description>
+		<description>This email is sent by a Reflector to the Section Facilitator to decline the request to serve as a reflector.</description>
 	</email_text>
 	<email_text key="REVIEW_ACK">
-		<subject>Article Review Acknowledgement</subject>
+		<subject>Reflection Acknowledgement</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
-Thank you for completing the review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We appreciate your contribution to the quality of the work that we publish.<br />
+Thank you for completing the reflection on the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We appreciate your contribution to growing community of those who desire equity in education.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>This email is sent by a Section Editor to confirm receipt of a completed review and thank the reviewer for their contributions.</description>
+		<description>This email is sent by a Section Facilitator to confirm receipt of a completed reflection and thank the reflector for their contributions.</description>
 	</email_text>
 	<email_text key="REVIEW_REMIND">
-		<subject>Submission Review Reminder</subject>
+		<subject>Gentle reminder: Reflection due</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
-Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have this review by {$reviewDueDate}, and would be pleased to receive it as soon as you are able to prepare it.<br />
+Thank you for commitment to serve as a reflector for the submission, &quot;{$submissionTitle},&quot; for {$contextName}. This email is a gentle reminder that it is due. We were hoping to have this reflection by {$reviewDueDate}, and would be pleased to receive it as soon as you are able to prepare it.<br />
 <br />
 If you do not have your username and password for the journal's web site, you can use this link to reset your password (which will then be emailed to you along with your username). {$passwordResetUrl}<br />
 <br />
 Submission URL: {$submissionReviewUrl}<br />
 <br />
-Please confirm your ability to complete this vital contribution to the work of the journal. I look forward to hearing from you.<br />
+Please confirm your ability to complete this vital contribution to our growing community. I look forward to hearing from you.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>This email is sent by a Section Editor to remind a reviewer that their review is due.</description>
+		<description>This email is sent by a Section Facilitator to remind a reflector that their reflection is due.</description>
 	</email_text>
 	<email_text key="REVIEW_REMIND_ONECLICK">
-		<subject>Submission Review Reminder</subject>
+		<subject>Gentle reminder: Reflection due</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
-Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have this review by {$reviewDueDate}, and would be pleased to receive it as soon as you are able to prepare it.<br />
+Thank you for commitment to serve as a reflector for the submission, &quot;{$submissionTitle},&quot; for {$contextName}. This email is a gentle reminder that it is due. We were hoping to have this reflection by {$reviewDueDate}, and would be pleased to receive it as soon as you are able to prepare it.<br />
 <br />
 Submission URL: {$submissionReviewUrl}<br />
 <br />
-Please confirm your ability to complete this vital contribution to the work of the journal. I look forward to hearing from you.<br />
+Please confirm your ability to complete this vital contribution to our growing community. I look forward to hearing from you.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>This email is sent by a Section Editor to remind a reviewer that their review is due.</description>
+		<description>This email is sent by a Section Facilitator to remind a reflector that their reflection is due.</description>
 	</email_text>
 	<email_text key="REVIEW_REMIND_AUTO">
-		<subject>Automated Submission Review Reminder</subject>
+		<subject>Automated Reflection Reminder</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
-Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have this review by {$reviewDueDate}, and this email has been automatically generated and sent with the passing of that date. We would still be pleased to receive it as soon as you are able to prepare it.<br />
+Just a gentle reminder of our request for your reflection on the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have this reflection by {$reviewDueDate}, and this email has been automatically generated and sent with the passing of that date. We would still be pleased to receive it as soon as you are able to prepare it.<br />
 <br />
 If you do not have your username and password for the journal's web site, you can use this link to reset your password (which will then be emailed to you along with your username). {$passwordResetUrl}<br />
 <br />
@@ -421,104 +421,116 @@ Submission URL: {$submissionReviewUrl}<br />
 Please confirm your ability to complete this vital contribution to the work of the journal. I look forward to hearing from you.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>This email is automatically sent when a reviewer's due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).</description>
+		<description>This email is automatically sent when a reflector's due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reflector access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).</description>
 	</email_text>
 	<email_text key="REVIEW_REMIND_AUTO_ONECLICK">
-		<subject>Automated Submission Review Reminder</subject>
+		<subject>Automated Reflection Reminder</subject>
 		<body><![CDATA[{$reviewerName}:<br />
 <br />
-Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have this review by {$reviewDueDate}, and this email has been automatically generated and sent with the passing of that date. We would still be pleased to receive it as soon as you are able to prepare it.<br />
+Just a gentle reminder of our request for your reflection on the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have this reflection by {$reviewDueDate}, and this email has been automatically generated and sent with the passing of that date. We would still be pleased to receive it as soon as you are able to prepare it.<br />
 <br />
 Submission URL: {$submissionReviewUrl}<br />
 <br />
 Please confirm your ability to complete this vital contribution to the work of the journal. I look forward to hearing from you.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>This email is automatically sent when a reviewer's due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).</description>
+		<description>This email is automatically sent when a reflector's due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reflector access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).</description>
 	</email_text>
 	<email_text key="EDITOR_DECISION_ACCEPT">
-		<subject>Editor Decision</subject>
+		<subject>Facilitator Recommendation : Accept</subject>
 		<body><![CDATA[{$authorName}:<br />
 <br />
-We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+We have reached a recommendation regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
 <br />
-Our decision is to: Accept Submission<br />
+Our recommendation is to: Accept and invite reflection<br />
+<br />
+Please sign into Murmurations to view the reflections on your piece by clicking on the title of your submission.<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></body>
-		<description>This email from the Editor or Section Editor to an Author notifies them of a final "accept submission" decision regarding their submission.</description>
+		<description>This email from the Facilitator or Section Facilitator to an Author notifies them of a final "accept submission" decision regarding their submission.</description>
 	</email_text>
 	<email_text key="EDITOR_DECISION_SEND_TO_EXTERNAL">
-		<subject>Editor Decision</subject>
+		<subject>Facilitator Recommendation: Consider for journal</subject>
 		<body><![CDATA[{$authorName}:<br />
 <br />
-We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+We have considered your submission to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
 <br />
-Our decision is to: Send to Review<br />
+Our decision is to: Send to Reflection<br />
+<br />
+This means that your submission is within the scope of our journal aims. We will be assembling a small group to serve as peer reflectors.<br />
 <br />
 Submission URL: {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></body>
-		<description>This email from the Editor or Section Editor to an Author notifies them that their submission is being sent to an external review.</description>
+		<description>This email from the Facilitator or Section Facilitator to a Creator notifies them that their submission is being sent to an external reflection.</description>
 	</email_text>
 	<email_text key="EDITOR_DECISION_SEND_TO_PRODUCTION">
-		<subject>Editor Decision</subject>
+		<subject>Copyediting complete - sending to production</subject>
 		<body><![CDATA[{$authorName}:<br />
 <br />
-The editing of your submission, &quot;{$submissionTitle},&quot; is complete.  We are now sending it to production.<br />
+The copyediting of your submission, &quot;{$submissionTitle},&quot; is complete.  We are now sending it to production.<br />
 <br />
 Submission URL: {$submissionUrl}<br />
 <br />
+You will receive a request from the production team to sign off on the galley draft prior to publication. Please be watching for this notification from us.<br />
+<br />
 {$editorialContactSignature}<br />
 ]]></body>
-		<description>This email from the Editor or Section Editor to an Author notifies them that their submission is being sent to production.</description>
+		<description>This email from the Facilitator or Section Facilitator to a Creator notifies them that their submission is being sent to production.</description>
 	</email_text>
 	<email_text key="EDITOR_DECISION_REVISIONS">
-		<subject>Editor Decision</subject>
+		<subject>Reflection complete - Requesting revision</subject>
 		<body><![CDATA[{$authorName}:<br />
 <br />
-We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+The reflection group has evaluated your submission, {$contextName}, &quot;{$submissionTitle}&quot;.<br />
 <br />
-Our decision is: Revisions Required<br />
+Our recommendation is: Request revisions in response to reflections<br />
+<br />
+We consider your submission aligned with the journal's aims and desire to work with you to ready the piece for publication; please log in to Murmurations and respond to the comments of the reflectors.<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></body>
-		<description>This email from the Editor or Section Editor to an Author notifies them of a final "revisions required" decision regarding their submission.</description>
+		<description>This email from the Facilitator or Section Facilitator to a Creator notifies them of a request to "Respond to reflections" decision regarding their submission.</description>
 	</email_text>
 	<email_text key="EDITOR_DECISION_RESUBMIT">
-		<subject>Editor Decision</subject>
+		<subject>Reflection complete - Requesting resubmission</subject>
 		<body><![CDATA[{$authorName}:<br />
 <br />
-We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+We have considered your submission to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
 <br />
-Our decision is to: Resubmit for Review<br />
+Our decision is to: Resubmit for a new round of reflections<br />
+<br />
+This means that we are requesting that you consider the reflections, as there are some critical questions about the submission's readiness for publication.  We desire to work with you to nurture these ideas. Please revise your submission based on the reflections and resubmit for an additional round of consideration.<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></body>
-		<description>This email from the Editor or Section Editor to an Author notifies them of a final "resubmit" decision regarding their submission.</description>
+		<description>This email from the Facilitator or Section Facilitator to a Creator notifies them of a final "resubmit" decision regarding their submission.</description>
 	</email_text>
 	<email_text key="EDITOR_DECISION_DECLINE">
-		<subject>Editor Decision</subject>
+		<subject>Reflection complete - Declining submission</subject>
 		<body><![CDATA[{$authorName}:<br />
 <br />
 We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
 <br />
 Our decision is to: Decline Submission<br />
 <br />
+We suspect that this is a disappointment. Such a decision is reached only when there is an irreconcilable misalignment between the submission and the journal aims. <br />
+<br />
 {$editorialContactSignature}<br />
 ]]></body>
-		<description>This email from the Editor or Section Editor to an Author notifies them of a final "decline" decision regarding their submission.</description>
+		<description>This email from the Facilitator or Section Facilitator to a Creator notifies them of a final "decline" decision regarding their submission.</description>
 	</email_text>
 	<email_text key="EDITOR_RECOMMENDATION">
-		<subject>Editor Recommendation</subject>
+		<subject>Facilitator Recommendation</subject>
 		<body><![CDATA[{$editors}:<br />
 <br />
 The recommendation regarding the submission to {$contextName}, &quot;{$submissionTitle}&quot; is: {$recommendation}<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></body>
-		<description>This email from the recommending Editor or Section Editor to the decision making Editors or Section Editors notifies them of a final recommendation regarding the submission.</description>
+		<description>This email from the recommending Facilitator or Section Facilitator to the decision making Editors or Section Editors notifies them of a final recommendation regarding the submission.</description>
 	</email_text>
 	<email_text key="COPYEDIT_REQUEST">
 		<subject>Copyediting Request</subject>
@@ -526,9 +538,9 @@ The recommendation regarding the submission to {$contextName}, &quot;{$submissio
 <br />
 I would ask that you undertake the copyediting of &quot;{$submissionTitle}&quot; for {$contextName} by following these steps.<br />
 1. Click on the Submission URL below.<br />
-2. Open any files available under Draft Files and do your copyediting, while adding any Copyediting Discussions as needed.<br />
+2. Open any files available under Draft Files and do your copyediting, while adding any Copyediting Discussions as needed. You may also create in Overleaf a copyediting template that contains the metadata for this piece. Please save the template at "LastName_Copyediting".<br />
 3. Save copyedited file(s), and upload to Copyedited panel.<br />
-4. Notify the Editor that all files have been prepared, and that the Production process may begin.<br />
+4. Notify the Editor and Creator that all files have been prepared; once we receive the creator's response to copyedits, the Production process may begin.<br />
 <br />
 {$contextName} URL: {$contextUrl}<br />
 Submission URL: {$submissionUrl}<br />
@@ -538,14 +550,15 @@ Username: {$participantUsername}<br />
 		<description>This email is sent by a Section Editor to a submission's Copyeditor to request that they begin the copyediting process. It provides information about the submission and how to access it.</description>
 	</email_text>
 	<email_text key="LAYOUT_REQUEST">
-		<subject>Request Galleys</subject>
+		<subject>Request galley production</subject>
 		<body><![CDATA[{$participantName}:<br />
 <br />
-The submission &quot;{$submissionTitle}&quot; to {$contextName} now needs galleys laid out by following these steps.<br />
+The submission &quot;{$submissionTitle}&quot; to {$contextName} now needs galleys laid out in Overleaf by following these steps.<br />
 1. Click on the Submission URL below.<br />
-2. Log into the journal and use the Production Ready files to create the galleys according to the journal's standards.<br />
-3. Upload the galleys to the Galley Files section.<br />
-4. Notify the Editor using Production Discussions that the galleys are uploaded and ready.<br />
+2. Log into the journal and use the creator's response to the copyedits to produce a Production Ready File from the Overleaf copyediting document that contains the metadata for this submission ("LastName_Copyediting").<br />
+3. Generate from Overleaf a Production Ready File (PDFs with line numbers) and rename as "LastName_Production").<br />
+4. Notify the JF and Creator(s) that the Production Ready file ("Galley draft") is ready for final approval.<br />
+5. Notify the Editor using Production Discussions that the galleys are uploaded and ready.<br />
 <br />
 {$contextName} URL: {$contextUrl}<br />
 Submission URL: {$submissionLayoutUrl}<br />
@@ -747,7 +760,7 @@ Subscription URL: {$subscriptionUrl}<br />
 		<description>This email notifies the Subscription Manager that an institutional subscription has been renewed online. It provides summary information about the subscription and a quick access link to the renewed subscription.</description>
 	</email_text>
 	<email_text key="CITATION_EDITOR_AUTHOR_QUERY">
-		<subject>Citation Editing</subject>
+		<subject>Citation editing request</subject>
 		<body><![CDATA[{$authorFirstName},<br />
 <br />
 Could you please verify or provide us with the proper citation for the following reference from your article, {$submissionTitle}:<br />
@@ -765,12 +778,12 @@ Copy-Editor, {$contextName}<br />
 		<subject>Revised Version Uploaded</subject>
 		<body><![CDATA[Editors:<br />
 <br />
-A revised version of &quot;{$submissionTitle}&quot; has been uploaded by the author {$authorName}.<br />
+A revised version of &quot;{$submissionTitle}&quot; has been uploaded by the creator {$authorName}.<br />
 <br />
 Submission URL: {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>This email is automatically sent to the assigned editor when author uploads a revised version of an article.</description>
+		<description>This email is automatically sent to the assigned editor when creator uploads a revised version of an article.</description>
 	</email_text>
 	<email_text key="NOTIFICATION_CENTER_DEFAULT">
 		<subject>A message regarding {$contextName}</subject>
@@ -778,15 +791,17 @@ Submission URL: {$submissionUrl}<br />
 		<description>The default (blank) message used in the Notification Center Message Listbuilder.</description>
 	</email_text>
 	<email_text key="EDITOR_DECISION_INITIAL_DECLINE">
-		<subject>Editor Decision</subject>
+		<subject>Facilitator Decision - Out-of-scope</subject>
 		<body>
 			<![CDATA[{$authorName}:<br />
 <br />
-We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+Thank you for your submission, {$contextName}, &quot;{$submissionTitle}&quot;.<br />
 <br />
 Our decision is to: Decline Submission<br />
 <br />
+We have concluded that your submission is out-of-scope of our journal and its aims. Please contact the Journal Facilitator if you have questions.<br />
+<br />
 {$editorialContactSignature}<br />]]></body>
-		<description>This email is send to the author if the editor declines his submission initially, before the review stage</description>
+		<description>This email is send to the author if the editor declines his submission initially, before the reflection stage</description>
 	</email_text>
 </email_texts>
