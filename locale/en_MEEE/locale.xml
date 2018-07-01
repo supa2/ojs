@@ -35,7 +35,7 @@
 
 
 
-	<message key="reviewer.article.enterReviewForm">Click on icon to fill in the review form.</message>
+	<message key="reviewer.article.enterReviewForm">Click on icon to fill in the reflection form.</message>
 	<message key="reviewer.submission.reviewFormResponse.form.responseRequired">Please fill in required fields.</message>
 
 	<!-- review forms end -->
@@ -67,11 +67,11 @@
 	<message key="navigation.current">Current</message>
 	<message key="navigation.otherJournals">Other Journals</message>
 	<message key="navigation.browseByIssue">By Issue</message>
-	<message key="navigation.browseByAuthor">By Author</message>
-	<message key="navigation.infoForAuthors">For Authors</message>
+	<message key="navigation.browseByAuthor">By Creator</message>
+	<message key="navigation.infoForAuthors">For Creators</message>
 	<message key="navigation.infoForLibrarians">For Librarians</message>
 	<message key="navigation.competingInterestGuidelines">Competing Interest Guidelines</message>
-	<message key="navigation.infoForAuthors.long">Information For Authors</message>
+	<message key="navigation.infoForAuthors.long">Information For Creators</message>
 	<message key="navigation.infoForLibrarians.long">Information For Librarians</message>
 
 	<!-- Article Queues -->
@@ -79,8 +79,8 @@
 	<message key="common.queue.short.submissionsUnassigned">Unassigned</message>
 	<message key="common.queue.long.submissionsInEditing">Submissions in Editing</message>
 	<message key="common.queue.short.submissionsInEditing">In Editing</message>
-	<message key="common.queue.long.submissionsInReview">Submissions in Review</message>
-	<message key="common.queue.short.submissionsInReview">In Review</message>
+	<message key="common.queue.long.submissionsInReview">Submissions in Reflection</message>
+	<message key="common.queue.short.submissionsInReview">In Reflection</message>
 	<message key="common.queue.long.submissionsArchives">Archives</message>
 	<message key="common.queue.short.submissionsArchives">Archives</message>
 	<message key="common.queue.long.active">Active</message>
@@ -107,7 +107,7 @@
 	<message key="article.articles">Articles</message>
 	<message key="article.submissionId">Submission ID</message>
 	<message key="article.title">Title</message>
-	<message key="article.authors">Authors</message>
+	<message key="article.authors">Creators</message>
 	<message key="article.indexingInformation">Indexing Information</message>
 	<message key="article.metadata">Metadata</message>
 	<message key="article.journalSection">Journal Section</message>
@@ -121,7 +121,7 @@
 	<message key="article.type">Type, method or approach</message>
 	<message key="article.language">Language</message>
 	<message key="article.sectionEditor">SE</message>
-	<message key="article.commentsToEditor">Author comments</message>
+	<message key="article.commentsToEditor">Creator comments</message>
 	<message key="article.submission">Submission</message>
 	<message key="article.submissions">Submissions</message>
 	<message key="article.details">Details</message>
@@ -144,15 +144,15 @@
 	<message key="submission.sent">Sent</message>
 	<message key="submission.editorDecision">Editor Decision</message>
 	<message key="submission.round">Round&amp;nbsp;{$round}</message>
-	<message key="submission.editorReview">Editor Review</message>
-	<message key="submission.notifyAuthor">Notify Author</message>
-	<message key="submission.notifyEditor">Notify Editor</message>
-	<message key="submission.editorAuthorRecord">Editor/Author Email Record</message>
-	<message key="submission.reviewersVersion">Reviewer's annotated version of file</message>
-	<message key="submission.postReviewVersion">Post-review version of file</message>
+	<message key="submission.editorReview">Editor Reflection</message>
+	<message key="submission.notifyAuthor">Notify Creator</message>
+	<message key="submission.notifyEditor">Notify Facilitator</message>
+	<message key="submission.editorAuthorRecord">Facilitator/Creator Email Record</message>
+	<message key="submission.reviewersVersion">Reflecter's annotated version of file</message>
+	<message key="submission.postReviewVersion">Post-reflection version of file</message>
 	<message key="submission.editorVersion">Editor Version</message>
-	<message key="submission.authorsRevisedVersion">Author's revised version of file</message>
-	<message key="submission.authorVersion">Author Version</message>
+	<message key="submission.authorsRevisedVersion">Creator's revised version of file</message>
+	<message key="submission.authorVersion">Creator Version</message>
 	<message key="submission.copyediting">Copyediting</message>
 	<message key="submission.copyedit">Copyedit</message>
 	<message key="submission.proofreading">Proofreading</message>
@@ -162,14 +162,14 @@
 	<message key="submissions.sec">Sec</message>
 	<message key="submissions.step1">Step 1</message>
 	<message key="submissions.step3">Step 3</message>
-	<message key="submissions.queuedReview">In Review</message>
+	<message key="submissions.queuedReview">In Reflection</message>
 	<message key="submissions.scheduled">Scheduled</message>
 	<message key="submissions.published">Published</message>
 	<message key="submissions.initial">Initial</message>
 	<message key="submissions.proofread">Proofread</message>
 	<message key="submissions.initialProof">Initial Proof</message>
-	<message key="submissions.postAuthor">Post-Author</message>
-	<message key="submissions.reviewRound">Review Round</message>
+	<message key="submissions.postAuthor">Post-Creator</message>
+	<message key="submissions.reviewRound">Reflection Round</message>
 	<message key="submissions.proof">Proof</message>
 	<message key="submissions.editorDecision">Editor Decision</message>
 	<message key="submissions.editorRuling">Editor Ruling</message>
@@ -195,9 +195,9 @@
 	<message key="user.profile.profileImage">Profile Image</message>
 	<message key="user.showAllJournals">Show My Journals</message>
 	<message key="user.registerForOtherJournals">Register for Other Journals</message>
-	<message key="user.reviewerPrompt">Would you be willing to review submissions to this journal?</message>
+	<message key="user.reviewerPrompt">Would you be willing to serve as a reflecter for submissions to this journal?</message>
 	<message key="user.reviewerPrompt.userGroup">Yes, request the {$userGroup} role.</message>
-	<message key="user.reviewerPrompt.optin">Yes, I would like to be contacted with requests to review submissions to this journal.</message>
+	<message key="user.reviewerPrompt.optin">Yes, I would like to be contacted with requests to reflect on submissions to this journal.</message>
 	<message key="user.register.contextsPrompt">Which journals on this site would you like to register with?</message>
 	<message key="user.register.otherContextRoles">Request the following roles.</message>
 	<message key="user.register.noContextReviewerInterests">If you requested to be a reviewer on any journal, please enter your subject interests.</message>
@@ -206,9 +206,9 @@
 	<message key="user.noRoles.chooseJournal">Your account is not currently associated with any journals. Please choose a journal:</message>
 	<message key="user.noRoles.noRolesForJournal">Your account does not currently have any roles for this journal. Please choose from the actions below:</message>
 	<message key="user.noRoles.submitArticle">Submit a Proposal</message>
-	<message key="user.noRoles.submitArticleRegClosed">Submit an Article: Author registration is currently disabled.</message>
-	<message key="user.noRoles.regReviewer">Register as a Reviewer</message>
-	<message key="user.noRoles.regReviewerClosed">Register as a Reviewer: Reviewer registration is currently disabled.</message>
+	<message key="user.noRoles.submitArticleRegClosed">Submit an Article: Creator registration is currently disabled.</message>
+	<message key="user.noRoles.regReviewer">Register as a Reflecter</message>
+	<message key="user.noRoles.regReviewerClosed">Register as a Reflecter: Reflecter registration is currently disabled.</message>
 
 	<!-- Roles -->
 	<message key="user.role.manager">Journal Manager</message>
@@ -275,9 +275,9 @@
 	<message key="submission.event.general.issueAssigned">Submission assigned to issue</message>
 	<message key="submission.event.general.articlePublished">Article published</message>
 
-	<message key="submission.event.author.authorRevision">Author revision submitted</message>
+	<message key="submission.event.author.authorRevision">Creator revision submitted</message>
 
-	<message key="submission.event.general.authorRevision">Author revision file updated</message>
+	<message key="submission.event.general.authorRevision">Creator revision file updated</message>
 
 	<message key="submission.event.editor.editorAssigned">Editor assigned to submission</message>
 	<message key="submission.event.editor.editorUnassigned">Editor unassigned from submission</message>
@@ -327,8 +327,8 @@
 
 	<!-- Search -->
 	<message key="search.results.orderBy">Order results by</message>
-	<message key="search.results.orderBy.article">Article Title</message>
-	<message key="search.results.orderBy.author">Author</message>
+	<message key="search.results.orderBy.article">Submission Title</message>
+	<message key="search.results.orderBy.author">Creator</message>
 	<message key="search.results.orderBy.date">Publication Date</message>
 	<message key="search.results.orderBy.issue">Issue</message>
 	<message key="search.results.orderBy.journal">Journal Title</message>
@@ -382,19 +382,19 @@
 	<!-- Setup Step 3 -->
 	<message key="manager.setup.authorCopyrightNotice.sample"><![CDATA[<h3>Proposed Creative Commons Copyright Notices</h3>
 <h4>1. Proposed Policy for Journals That Offer Open Access</h4>
-Authors who publish with this journal agree to the following terms:
+Creators who publish with this journal agree to the following terms:
 <ol type="a">
-	<li>Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
-	<li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
-	<li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
+	<li>Creators retain copyright and grant the journal right of first publication with the work simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
+	<li>Creators are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
+	<li>Creators are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
 </ol>
 
 <h4>2. Proposed Policy for Journals That Offer Delayed Open Access</h4>
-Authors who publish with this journal agree to the following terms:
+Creators who publish with this journal agree to the following terms:
 <ol type="a">
-	<li>Authors retain copyright and grant the journal right of first publication, with the work [SPECIFY PERIOD OF TIME] after publication simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
-	 <li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
-	 <li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html"> The Effect of Open Access</a>).</li>
+	<li>Creators retain copyright and grant the journal right of first publication, with the work [SPECIFY PERIOD OF TIME] after publication simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
+	 <li>Creators are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
+	 <li>Creators are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html"> The Effect of Open Access</a>).</li>
 </ol>]]></message>
 
 	<!-- Setup Step 4 -->
@@ -450,14 +450,14 @@ You may optionally provide the user with a reason for disabling their account.</
 	<![CDATA[<ol>
 	<li>Highlighted items indicate action is required by an editor, labelled as follows:
 		<ul>
-			<li class="highlightReviewerNotNotified">A Reviewer has been assigned but not notified by email</li>
-			<li class="highlightNoDecision">All Reviewers have returned with their comments, but no decision is recorded</li>
-			<li class="highlightRevisedCopyUploaded">Author has uploaded a revised manuscript</li>
-			<li class="highlightReviewerConfirmationOverdue">Reviewer is overdue to confirm peer review invitation</li>
-			<li class="highlightReviewerCompletionOverdue">Reviewer is overdue to complete review</li>
+			<li class="highlightReviewerNotNotified">A Reflecter has been assigned but not notified by email</li>
+			<li class="highlightNoDecision">All Reflecters have returned with their comments, but no decision is recorded</li>
+			<li class="highlightRevisedCopyUploaded">Creator has uploaded a revised manuscript</li>
+			<li class="highlightReviewerConfirmationOverdue">Reflecter is overdue to confirm peer reflection invitation</li>
+			<li class="highlightReviewerCompletionOverdue">Reflecter is overdue to complete reflection</li>
 		</ul>
 	</li>
-	<li>"Due" is filled in when reviewer accepts request to review; it displays number of weeks to review's due date or (-) weeks that it is overdue.</li>
+	<li>"Due" is filled in when reflecter accepts request to serve as a reflecter; it displays number of weeks to reflecter's due date or (-) weeks that it is overdue.</li>
 </ol>]]></message>
 	<message key="editor.submissionEditing.notes">
 	<![CDATA[<ol>
@@ -491,7 +491,7 @@ You may optionally provide the user with a reason for disabling their account.</
 	<message key="sectionEditor.completedEditorialAssignments">Completed Editorial Assignments</message>
 	<message key="sectionEditor.noneAssigned">No submissions assigned.</message>
 	<message key="sectionEditor.copyedit.confirmRenotify">Notifying this copy editor again will restart their assignment. Are you sure you wish to do this?</message>
-	<message key="sectionEditor.author.confirmRenotify">Notifying this author again will restart their assignment. Are you sure you wish to do this?</message>
+	<message key="sectionEditor.author.confirmRenotify">Notifying this creator again will restart their assignment. Are you sure you wish to do this?</message>
 	<message key="sectionEditor.layout.confirmRenotify">Notifying this layout editor again will restart their assignment. Are you sure you wish to do this?</message>
 	<message key="sectionEditor.proofreader.confirmRenotify">Notifying this proofreader again will restart their assignment. Are you sure you wish to do this?</message>
 
@@ -499,13 +499,13 @@ You may optionally provide the user with a reason for disabling their account.</
 	<message key="sectionEditor.regrets.title">#{$submissionId} Reviewer Regrets, Cancellations &amp; Earlier Rounds</message>
 	<message key="sectionEditor.regrets">Regrets</message>
 	<message key="sectionEditor.regrets.link">View Regrets, Cancels, Previous Rounds</message>
-	<message key="sectionEditor.regrets.reviewRound">Peer Review, Round {$round}</message>
+	<message key="sectionEditor.regrets.reviewRound">Peer Reflection, Round {$round}</message>
 	<message key="sectionEditor.regrets.decisionRound">Editor Decision, Round {$round}</message>
-	<message key="sectionEditor.regrets.regretsAndCancels">Reviewer Regrets &amp; Cancellations</message>
+	<message key="sectionEditor.regrets.regretsAndCancels">Reflecter Regrets &amp; Cancellations</message>
 	<message key="sectionEditor.regrets.regret">Regret</message>
 	<message key="sectionEditor.regrets.result">Result</message>
-	<message key="sectionEditor.review.enrollReviewer">Enroll an Existing User As Reviewer</message>
-	<message key="sectionEditor.review.createReviewer">Create New Reviewer</message>
+	<message key="sectionEditor.review.enrollReviewer">Enroll an Existing User As Reflecter</message>
+	<message key="sectionEditor.review.createReviewer">Create New Reflecter</message>
 
 	<!-- Layout Editor -->
 	<message key="layoutEditor.activeEditorialAssignments">Active Editorial Assignments</message>
@@ -520,55 +520,55 @@ You may optionally provide the user with a reason for disabling their account.</
 	<message key="submission.layout.galley.remoteURL">URL of remotely-hosted content</message>
 
 	<!-- Reviewer -->
-	<message key="reviewer.pendingReviews">Articles Pending Review</message>
+	<message key="reviewer.pendingReviews">Articles Pending Reflection</message>
 	<message key="reviewer.completedReviews">Done</message>
 	<message key="reviewer.averageQuality">Rating</message>
 
 	<!-- Used in submission review -->
-	<message key="reviewer.article.fileToBeReviewed">File to be reviewed</message>
+	<message key="reviewer.article.fileToBeReviewed">File to be considered</message>
 	<message key="reviewer.article.notifyTheEditor">Notify The Editor</message>
-	<message key="reviewer.article.canDoReview">Will do the review</message>
-	<message key="reviewer.article.cannotDoReview">Unable to do the review</message>
-	<message key="reviewer.article.restrictedFileAccess">Submission will be made available, if and when reviewer agrees to undertake review</message>
+	<message key="reviewer.article.canDoReview">Will serve as a peer-reflecter</message>
+	<message key="reviewer.article.cannotDoReview">Unable to serve as a reflecter</message>
+	<message key="reviewer.article.restrictedFileAccess">Submission will be made available, if and when reflecter accepts the request to serve</message>
 	<message key="reviewer.article.submissionEditor">Submission Editor</message>
-	<message key="reviewer.article.reviewerCommentsDescription">Type or paste in review comments here</message>
+	<message key="reviewer.article.reviewerCommentsDescription">Please provide your reflections as annotations in context. If needed, you can insert comments here, but it is not necessary.</message>
 	<message key="reviewer.article.editorToEnter">Editor To Enter</message>
 	<message key="reviewer.article.sendReminder">Send Reminder</message>
 	<message key="reviewer.article.automatic">(Auto)</message>
 	<message key="reviewer.article.recommendation">Recommendation</message>
-	<message key="reviewer.article.submitReview">Submit Review To Editor</message>
+	<message key="reviewer.article.submitReview">Submit Reflection To Facilitator</message>
 	<message key="reviewer.article.reviewerComments">Comments</message>
 	<message key="reviewer.article.uploadedFile">Uploaded files</message>
-	<message key="reviewer.article.reviewersAnnotatedVersion">Version uploaded by reviewer</message>
+	<message key="reviewer.article.reviewersAnnotatedVersion">Version uploaded by reflecter</message>
 	<message key="reviewer.article.reviewersAnnotatedVersionDescription">(If you want to annotate the file, for the editor, save on your hard drive and use Browse/Upload.)</message>
 	<message key="reviewer.article.schedule.request">Editor's Request</message>
 	<message key="reviewer.article.schedule.response">Your Response</message>
-	<message key="reviewer.article.schedule.submitted">Review Submitted</message>
-	<message key="reviewer.article.schedule.due">Review Due</message>
-	<message key="reviewer.article.decision.accept">Accept Submission</message>
-	<message key="reviewer.article.decision.pendingRevisions">Revisions Required</message>
-	<message key="reviewer.article.decision.resubmitHere">Resubmit for Review</message>
-	<message key="reviewer.article.decision.resubmitElsewhere">Resubmit Elsewhere</message>
-	<message key="reviewer.article.decision.decline">Decline Submission</message>
+	<message key="reviewer.article.schedule.submitted">Reflection Submitted</message>
+	<message key="reviewer.article.schedule.due">Reflection Due</message>
+	<message key="reviewer.article.decision.accept">Accept and invite creator(s) to respond to reflections</message>
+	<message key="reviewer.article.decision.pendingRevisions">Request a response to reflections</message>
+	<message key="reviewer.article.decision.resubmitHere">Resubmit for a new round of reflections</message>
+	<message key="reviewer.article.decision.resubmitElsewhere">Resubmit elsewhere - Out-of-journal scope</message>
+	<message key="reviewer.article.decision.decline">Decline submission</message>
 	<message key="reviewer.article.decision.seeComments">See Comments</message>
 	<message key="reviewer.article.schedule">Schedule</message>
-	<message key="reviewer.article.submissionToBeReviewed">Submission To Be Reviewed</message>
-	<message key="reviewer.article.reviewSchedule">Review Schedule</message>
-	<message key="reviewer.article.reviewSteps">Review Steps</message>
-	<message key="reviewer.article.reviewerGuidelines">Reviewer Guidelines</message>
-	<message key="reviewer.article.reviewGuidelinesDescription"><![CDATA[The Review Guidelines will provide reviewers with criteria for judging a submission's suitability for publication in the journal, and can include any special instructions for preparing an effective and helpful review. In conducting the review, reviewers are presented with with two open text boxes, the first "for author and editor," and the second "for editor." Alternatively, the Journal Manager can create a peer review form under Review Forms. In all cases, editors will have the option of including the reviews in corresponding with the author.]]></message>
+	<message key="reviewer.article.submissionToBeReviewed">Submission To Be Considered</message>
+	<message key="reviewer.article.reviewSchedule">Reflection Schedule</message>
+	<message key="reviewer.article.reviewSteps">Reflection Steps</message>
+	<message key="reviewer.article.reviewerGuidelines">Reflecter Guidelines</message>
+	<message key="reviewer.article.reviewGuidelinesDescription"><![CDATA[The Reflector Guidelines will provide reflecters with criteria for judging a submission's suitability for publication in the journal, and can include any special instructions for preparing an effective and helpful reflection. Upon engaging the submission, reflecters are presented with with two open text boxes, the first "for creator and editor," and the second "for editor." Alternatively, the Journal Manager can create a peer review form under Review Forms. In all cases, editors will have the option of including the reflections in corresponding with the creator.]]></message>
 	<message key="reviewer.article.notifyEditorA">Notify the submission's editor</message>
-	<message key="reviewer.article.notifyEditorB">as to whether you will undertake the review.</message>
-	<message key="reviewer.article.consultGuidelines">If you are going to do the review, consult Reviewer Guidelines below.</message>
-	<message key="reviewer.article.downloadSubmission">Click on file names to download and review (on screen or by printing) the files associated with this submission.</message>
+	<message key="reviewer.article.notifyEditorB">as to whether you will serve as a reflecter.</message>
+	<message key="reviewer.article.consultGuidelines">If you are going to serve as a reflector, consult Reflecter Guidelines below.</message>
+	<message key="reviewer.article.downloadSubmission">Click on file names to download and reflect on (on screen or by printing) the files associated with this submission.</message>
 	<message key="reviewer.article.enterCompetingInterests"><![CDATA[Declare whether or not you have competing interests with regard to this research (see <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">CI&nbsp;Policy</a>).]]></message>
 	<message key="reviewer.competingInterests">Competing Interests</message>
-	<message key="reviewer.article.enterReviewA">Click on icon to enter (or paste) your review of this submission.</message>
-	<message key="reviewer.article.uploadFile">In addition, you can upload files for the editor and/or author to consult.</message>
-	<message key="reviewer.article.selectRecommendation">Select a recommendation and submit the review to complete the process. You must enter a review or upload a file before selecting a recommendation.</message>
-	<message key="reviewer.article.selectRecommendation.byEditor">Set or adjust the reviewer recommendation.</message>
+	<message key="reviewer.article.enterReviewA">We prefer that you include your reflections in context as annotations. If needed, you can instead click on icon to enter (or paste) your reflection of this submission.</message>
+	<message key="reviewer.article.uploadFile">In addition, you can upload files for the editor and/or creator to consult.</message>
+	<message key="reviewer.article.selectRecommendation">Select a recommendation and submit to complete the process. We ask you to provide your reflections in context before selecting a recommendation. For assistance in entering reflections in context, contact the Journal Facilitator (jfacilitator.meee@gmail.com)</message>
+	<message key="reviewer.article.selectRecommendation.byEditor">Set or adjust the reflecter recommendation.</message>
 	<message key="reviewer.article.mustSelectDecision">No recommendation was selected. You must choose a recommendation to submit.</message>
-	<message key="reviewer.article.confirmDecision">Once you have recorded a decision you will no longer be able to make changes to this review. Are you sure you wish to continue?</message>
+	<message key="reviewer.article.confirmDecision">Once you have recorded your recommendation you will no longer be able to make changes to this reflection. Are you sure you wish to continue?</message>
 
 	<!-- Used in submission editing -->
 	<message key="copyeditor.article.fileToCopyedit">File To C/E</message>
@@ -604,14 +604,14 @@ You may optionally provide the user with a reason for disabling their account.</
 	<!-- Article Submission Step 5 -->
 
 	<!-- Used in submission review / editing -->
-	<message key="submission.review.mustUploadFileForReview">Request email cannot be sent until a Review Version is in place.</message>
+	<message key="submission.review.mustUploadFileForReview">Request email cannot be sent until a Reflection Version is in place.</message>
 
 	<!-- Submission Tracking - Copyedit Specific -->
-	<message key="submission.copyedit.mustUploadFileForInitialCopyedit">Request email cannot be sent until file is selected for copyediting in Editor Decision, Review page.</message>
+	<message key="submission.copyedit.mustUploadFileForInitialCopyedit">Request email cannot be sent until file is selected for copyediting in Editor Decision, Reflection page.</message>
 	<message key="submission.copyedit.mustUploadFileForCopyedit">Request email cannot be sent until file is uploaded for copyediting.</message>
 	<message key="submission.copyedit.initialCopyedit">Initial Copyedit</message>
-	<message key="submission.copyedit.editorsCopyedit">Editor's Copyedit</message>
-	<message key="submission.copyedit.editorAuthorReview">Author Copyedit</message>
+	<message key="submission.copyedit.editorsCopyedit">Facilitator's Copyedit</message>
+	<message key="submission.copyedit.editorAuthorReview">Creator Copyedit</message>
 	<message key="submission.copyedit.finalCopyedit">Final Copyedit</message>
 	<message key="submission.copyedit.copyeditVersion">C/E Version</message>
 	<message key="submission.copyedit.selectCopyeditor">Assign Copyeditor</message>
@@ -637,10 +637,10 @@ You may optionally provide the user with a reason for disabling their account.</
 
 	<!-- Submission History -->
 
-	<message key="submission.logType.article">Article</message>
-	<message key="submission.logType.author">Author</message>
-	<message key="submission.logType.editor">Editor</message>
-	<message key="submission.logType.review">Review</message>
+	<message key="submission.logType.article">Submission</message>
+	<message key="submission.logType.author">Creator</message>
+	<message key="submission.logType.editor">Facilitator</message>
+	<message key="submission.logType.review">Reflection</message>
 	<message key="submission.logType.copyedit">Copyedit</message>
 	<message key="submission.logType.layout">Layout</message>
 	<message key="submission.logType.proofread">Proofread</message>
@@ -650,16 +650,16 @@ You may optionally provide the user with a reason for disabling their account.</
 	<!-- Submission Email Log -->
 
 	<!-- Submission Comments -->
-	<message key="submission.comments.editorAuthorCorrespondence">Editor/Author Correspondence</message>
+	<message key="submission.comments.editorAuthorCorrespondence">Facilitator/Creator Correspondence</message>
 	<message key="submission.comments.copyeditComments">Copyedit Comments</message>
-	<message key="submission.comments.viewableDescription"><![CDATA[These comments can be shared with the author.<br />
+	<message key="submission.comments.viewableDescription"><![CDATA[These comments can be shared with the creator.<br />
 (After saving, further comments can be added.)]]></message>
-	<message key="submission.comments.canShareWithAuthor">For author and editor</message>
-	<message key="submission.comments.cannotShareWithAuthor">For editor</message>
+	<message key="submission.comments.canShareWithAuthor">For creator and facilitator</message>
+	<message key="submission.comments.cannotShareWithAuthor">In general, we prefer transparency. However, you may use this to communicate privately to the facilitator.</message>
 	<message key="submission.comments.blindCcReviewers">After sending, present an editable BCC copy to send to reviewers.</message>
-	<message key="submission.comments.forAuthorEditor">For author and editor</message>
+	<message key="submission.comments.forAuthorEditor">For creator and facilitator</message>
 	<message key="submission.comments.forEditor">For editor</message>
-	<message key="submission.comments.saveAndEmailAuthor">Save and Email Author</message>
+	<message key="submission.comments.saveAndEmailAuthor">Save and Email Creator</message>
 	<message key="submission.comments.saveAndEmailEditor">Save and Email Editor</message>
 
 	<!-- Registration -->
@@ -718,12 +718,12 @@ You may optionally provide the user with a reason for disabling their account.</
 
 
 	<!-- Search -->
-	<message key="search.browseAuthorIndex">Browse Author Index</message>
+	<message key="search.browseAuthorIndex">Browse Creator Index</message>
 	<message key="search.searchFor">Search articles for</message>
 	<message key="search.withinJournal">Within</message>
 	<message key="search.allJournals">All Journals</message>
-	<message key="search.authorIndex">Browse Author Index</message>
-	<message key="search.authorDetails">Author Details</message>
+	<message key="search.authorIndex">Browse Creator Index</message>
+	<message key="search.authorDetails">Creator Details</message>
 	<message key="search.syntaxInstructions"><![CDATA[Search tips: <ul>
 <li>Search terms are case-insensitive</li>
 <li>Common words are ignored</li>
@@ -780,20 +780,20 @@ You may optionally provide the user with a reason for disabling their account.</
 	<message key="about.onlineSubmissions.submissionActions">{$newSubmission} or {$viewSubmissions}.</message>
 	<message key="about.onlineSubmissions.newSubmission">Make a new submission</message>
 	<message key="about.onlineSubmissions.viewSubmissions">view your pending submissions</message>
-	<message key="about.authorGuidelines">Author Guidelines</message>
+	<message key="about.authorGuidelines">Creator Guidelines</message>
 	<message key="about.submissionPreparationChecklist">Submission Preparation Checklist</message>
-	<message key="about.submissionPreparationChecklist.description">As part of the submission process, authors are required to check off their submission's compliance with all of the following items, and submissions may be returned to authors that do not adhere to these guidelines.</message>
+	<message key="about.submissionPreparationChecklist.description">As part of the submission process, creators are required to check off their submission's compliance with all of the following items, and submissions may be returned to creators that do not adhere to these guidelines.</message>
 	<message key="about.copyrightNotice">Copyright Notice</message>
 	<message key="about.privacyStatement">Privacy Statement</message>
-	<message key="about.authorFees">Author Fees</message>
-	<message key="about.authorFeesMessage">This journal charges the following author fees.</message>
-	<message key="about.peerReviewProcess">Peer Review Process</message>
+	<message key="about.authorFees">Publication Fees</message>
+	<message key="about.authorFeesMessage">This journal charges the following publication fees.</message>
+	<message key="about.peerReviewProcess">Peer Reflection Process</message>
 	<message key="about.publicationFrequency">Publication Frequency</message>
 	<message key="about.openAccessPolicy">Open Access Policy</message>
 	<message key="about.delayedOpenAccess">Delayed Open Access</message>
 	<message key="about.delayedOpenAccessDescription1">The contents of this journal will be available in an open access format</message>
 	<message key="about.delayedOpenAccessDescription2">month(s) after an issue is published.</message>
-	<message key="about.authorSelfArchive">Author Self-Archiving</message>
+	<message key="about.authorSelfArchive">Creator Self-Archiving</message>
 	<message key="about.archiving">Archiving</message>
 	<message key="about.subscriptions">Subscriptions</message>
 	<message key="about.subscriptions.individual">Individual Subscriptions</message>
@@ -835,7 +835,7 @@ You may optionally provide the user with a reason for disabling their account.</
 	<message key="payment.alreadyPaidMessage">Select this box if you've already sent your payment to the journal in order to finish the submission process.  The submission will not be reviewed until the payment arrives.  Click PAY NOW above to see the payment instructions.</message>
 	<message key="payment.paymentReceived">Payment Received</message>
 	<message key="payment.paymentSent">Payment has already been sent</message>
-	<message key="payment.authorFees">Author Fees</message>
+	<message key="payment.authorFees">Publication Fees</message>
 	<message key="payment.type.submission">Submission Fee</message>
 	<message key="payment.type.publication">Publication Fee</message>
 	<message key="payment.type.publication.required">The publication fee is due for payment.</message>
@@ -941,21 +941,21 @@ Your server currently supports mbstring: <strong>{$supportsMBString}</strong>]]>
 
 	<!-- Article Logs -->
 	<message key="log.author.documentRevised">{$authorName} has revised article {$submissionId}. The new file ID is {$fileId}.</message>
-	<message key="log.review.reviewerUnassigned">{$reviewerName} has been unassigned from reviewing submission {$submissionId} for review round {$round}.</message>
-	<message key="log.review.reviewInitiated">The round {$round} review by {$reviewerName} for submission {$submissionId} has been initiated.</message>
-	<message key="log.review.reviewReinitiated">The round {$round} review by {$reviewerName} for submission {$submissionId} has been reinitiated.</message>
-	<message key="log.review.reviewCleared">The round {$round} review by {$reviewerName} for submission {$submissionId} has been cleared.</message>
-	<message key="log.review.reviewerRated">{$reviewerName} has been rated for the round {$round} review of submission {$submissionId}.</message>
-	<message key="log.review.reviewDueDateSet">The due date for the round {$round} review of submission {$submissionId} by {$reviewerName} has been set to {$dueDate}.</message>
-	<message key="log.review.reviewRecommendationSet">The recommendation for the round {$round} review of submission {$submissionId} by {$reviewerName} has been set.</message>
-	<message key="log.review.reviewRecommendationSetByProxy">The recommendation for the round {$round} review of submission {$submissionId} has been set by the editor, {$editorName}, on behalf of the reviewer, {$reviewerName}.</message>
-	<message key="log.review.resubmit">The submission {$submissionId} has been resubmitted for review.</message>
-	<message key="log.review.reviewDeclined">{$reviewerName} has declined the round {$round} review for submission {$submissionId}.</message>
-	<message key="log.review.reviewAccepted">{$reviewerName} has accepted the round {$round} review for submission {$submissionId}.</message>
-	<message key="log.review.reviewDeclinedByProxy">{$userName} has declined the round {$round} review for submission {$submissionId} on behalf of {$reviewerName}.</message>
-	<message key="log.review.reviewAcceptedByProxy">{$userName} has accepted the round {$round} review for submission {$submissionId} on behalf of {$reviewerName}.</message>
-	<message key="log.review.reviewFileByProxy">The Editor, {$userName}, has uploaded a review file for round {$round} of submission {$submissionId} on behalf of the reviewer, {$reviewerName}.</message>
-	<message key="log.review.reviewerFile">A reviewer file has been uploaded.</message>
+	<message key="log.review.reviewerUnassigned">{$reviewerName} has been unassigned from serving as a reflecter on submission {$submissionId} for reflection round {$round}.</message>
+	<message key="log.review.reviewInitiated">The round {$round} reflection by {$reviewerName} for submission {$submissionId} has been initiated.</message>
+	<message key="log.review.reviewReinitiated">The round {$round} reflection by {$reviewerName} for submission {$submissionId} has been reinitiated.</message>
+	<message key="log.review.reviewCleared">The round {$round} reflection by {$reviewerName} for submission {$submissionId} has been cleared.</message>
+	<message key="log.review.reviewerRated">{$reviewerName} has been rated for the round {$round} reflection of submission {$submissionId}.</message>
+	<message key="log.review.reviewDueDateSet">The due date for the round {$round} reflection of submission {$submissionId} by {$reviewerName} has been set to {$dueDate}.</message>
+	<message key="log.review.reviewRecommendationSet">The recommendation for the round {$round} reflection of submission {$submissionId} by {$reviewerName} has been set.</message>
+	<message key="log.review.reviewRecommendationSetByProxy">The recommendation for the round {$round} reflection of submission {$submissionId} has been set by the editor, {$editorName}, on behalf of the reflecter, {$reviewerName}.</message>
+	<message key="log.review.resubmit">The submission {$submissionId} has been resubmitted for reflection.</message>
+	<message key="log.review.reviewDeclined">{$reviewerName} has declined the round {$round} reflection for submission {$submissionId}.</message>
+	<message key="log.review.reviewAccepted">{$reviewerName} has accepted the round {$round} reflection for submission {$submissionId}.</message>
+	<message key="log.review.reviewDeclinedByProxy">{$userName} has declined the round {$round} reflection for submission {$submissionId} on behalf of {$reviewerName}.</message>
+	<message key="log.review.reviewAcceptedByProxy">{$userName} has accepted the round {$round} reflection for submission {$submissionId} on behalf of {$reviewerName}.</message>
+	<message key="log.review.reviewFileByProxy">The Editor, {$userName}, has uploaded a reflection file for round {$round} of submission {$submissionId} on behalf of the reflecter, {$reviewerName}.</message>
+	<message key="log.review.reviewerFile">A reflecter file has been uploaded.</message>
 	<message key="log.editor.decision">An editor decision ({$decision}) for article {$submissionId} was recorded by {$editorName}.</message>
 	<message key="log.editor.recommendation">An editor recommendation ({$decision}) for article {$submissionId} was recorded by {$editorName}.</message>
 
@@ -966,7 +966,7 @@ Your server currently supports mbstring: <strong>{$supportsMBString}</strong>]]>
 	<message key="log.copyedit.finalEditComplete">{$copyeditorName} has completed the final copy edit of submission {$submissionId}.</message>
 	<message key="log.copyedit.copyeditorAssigned">{$copyeditorName} has been assigned to copyedit submission {$submissionId}.</message>
 	<message key="log.copyedit.copyeditorFile">A copyeditor version of the submission file has been uploaded.</message>
-	<message key="log.copyedit.authorFile">A version of the submission file copyedited by the author has been uploaded.</message>
+	<message key="log.copyedit.authorFile">A version of the submission file copyedited by the creator has been uploaded.</message>
 
 	<message key="log.layout.layoutEditorAssigned">{$editorName} has been assigned as layout editor for submission {$submissionId}.</message>
 	<message key="log.layout.layoutEditorUnassigned">{$editorName} has been unassigned as layout editor for submission {$submissionId}.</message>
@@ -1020,7 +1020,7 @@ Validation may fail on search URLs that require posted form data.]]></message>
 
 	<message key="rt.metadata.dublinCore.primaryAuthor">Creator</message>
 
-	<message key="rt.metadata.pkp.primaryAuthor">Author's name, affiliation, country</message>
+	<message key="rt.metadata.pkp.primaryAuthor">Creator's name, affiliation, country</message>
 	<message key="rt.metadata.pkp.peerReviewed">Peer-reviewed Article</message>
 
 
@@ -1032,7 +1032,7 @@ Validation may fail on search URLs that require posted form data.]]></message>
 	<message key="rt.thisJournal">Search journal</message>
 
 
-	<message key="rt.context.authorTermsDescription">For items with more than one author, leave all names checked to search for similarly co-authored work, or search one at a time by checking only a single name. To learn more about the resource searched, click on ABOUT. These resources have been selected because of their relevance and their open (free) access to all or part of their contents.</message>
+	<message key="rt.context.authorTermsDescription">For items with more than one creator, leave all names checked to search for similarly co-created work, or search one at a time by checking only a single name. To learn more about the resource searched, click on ABOUT. These resources have been selected because of their relevance and their open (free) access to all or part of their contents.</message>
 
 
 
@@ -1045,8 +1045,8 @@ Validation may fail on search URLs that require posted form data.]]></message>
 	<message key="notification.type.galleyModified">A galley has been modified for "{$title}."</message>
 	<message key="notification.type.issuePublished">An issue has been published.</message>
 	<message key="notification.type.newAnnouncement">A new announcement has been created.</message>
-	<message key="notification.type.reviewerFormComment">A review form review has been submitted for "{$title}."</message>
-	<message key="notification.type.reviewing">Reviewing Events</message>
+	<message key="notification.type.reviewerFormComment">A reflection using a the reflection form has been submitted for "{$title}."</message>
+	<message key="notification.type.reviewing">Reflecting Events</message>
 	<message key="notification.type.site">Site Events</message>
 	<message key="notification.type.submissionComment">An editor has made a comment on "{$title}."</message>
 	<message key="notification.type.submissions">Submission Events</message>
