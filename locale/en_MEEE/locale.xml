@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="en_US" full_name="U.S. English">
+<locale name="en_MEEE" full_name=“Murmurations Language”>
 	<!--
 	 * This file is organized into several major sections, separated
 	 * by comments like this one. These sections are called:
@@ -148,7 +148,7 @@
 	<message key="submission.notifyAuthor">Notify Creator</message>
 	<message key="submission.notifyEditor">Notify Facilitator</message>
 	<message key="submission.editorAuthorRecord">Facilitator/Creator Email Record</message>
-	<message key="submission.reviewersVersion">Reflecter's annotated version of file</message>
+	<message key="submission.reviewersVersion">Reflector's annotated version of file</message>
 	<message key="submission.postReviewVersion">Post-reflection version of file</message>
 	<message key="submission.editorVersion">Editor Version</message>
 	<message key="submission.authorsRevisedVersion">Creator's revised version of file</message>
@@ -195,7 +195,7 @@
 	<message key="user.profile.profileImage">Profile Image</message>
 	<message key="user.showAllJournals">Show My Journals</message>
 	<message key="user.registerForOtherJournals">Register for Other Journals</message>
-	<message key="user.reviewerPrompt">Would you be willing to serve as a reflecter for submissions to this journal?</message>
+	<message key="user.reviewerPrompt">Would you be willing to serve as a reflector for submissions to this journal?</message>
 	<message key="user.reviewerPrompt.userGroup">Yes, request the {$userGroup} role.</message>
 	<message key="user.reviewerPrompt.optin">Yes, I would like to be contacted with requests to reflect on submissions to this journal.</message>
 	<message key="user.register.contextsPrompt">Which journals on this site would you like to register with?</message>
@@ -207,8 +207,8 @@
 	<message key="user.noRoles.noRolesForJournal">Your account does not currently have any roles for this journal. Please choose from the actions below:</message>
 	<message key="user.noRoles.submitArticle">Submit a Proposal</message>
 	<message key="user.noRoles.submitArticleRegClosed">Submit an Article: Creator registration is currently disabled.</message>
-	<message key="user.noRoles.regReviewer">Register as a Reflecter</message>
-	<message key="user.noRoles.regReviewerClosed">Register as a Reflecter: Reflecter registration is currently disabled.</message>
+	<message key="user.noRoles.regReviewer">Register as a Reflector</message>
+	<message key="user.noRoles.regReviewerClosed">Register as a Reflector: Reflector registration is currently disabled.</message>
 
 	<!-- Roles -->
 	<message key="user.role.manager">Journal Manager</message>
@@ -450,14 +450,14 @@ You may optionally provide the user with a reason for disabling their account.</
 	<![CDATA[<ol>
 	<li>Highlighted items indicate action is required by an editor, labelled as follows:
 		<ul>
-			<li class="highlightReviewerNotNotified">A Reflecter has been assigned but not notified by email</li>
+			<li class="highlightReviewerNotNotified">A Reflector has been assigned but not notified by email</li>
 			<li class="highlightNoDecision">All Reflecters have returned with their comments, but no decision is recorded</li>
 			<li class="highlightRevisedCopyUploaded">Creator has uploaded a revised manuscript</li>
-			<li class="highlightReviewerConfirmationOverdue">Reflecter is overdue to confirm peer reflection invitation</li>
-			<li class="highlightReviewerCompletionOverdue">Reflecter is overdue to complete reflection</li>
+			<li class="highlightReviewerConfirmationOverdue">Reflector is overdue to confirm peer reflection invitation</li>
+			<li class="highlightReviewerCompletionOverdue">Reflector is overdue to complete reflection</li>
 		</ul>
 	</li>
-	<li>"Due" is filled in when reflecter accepts request to serve as a reflecter; it displays number of weeks to reflecter's due date or (-) weeks that it is overdue.</li>
+	<li>"Due" is filled in when reflector accepts request to serve as a reflector; it displays number of weeks to reflector's due date or (-) weeks that it is overdue.</li>
 </ol>]]></message>
 	<message key="editor.submissionEditing.notes">
 	<![CDATA[<ol>
@@ -501,11 +501,11 @@ You may optionally provide the user with a reason for disabling their account.</
 	<message key="sectionEditor.regrets.link">View Regrets, Cancels, Previous Rounds</message>
 	<message key="sectionEditor.regrets.reviewRound">Peer Reflection, Round {$round}</message>
 	<message key="sectionEditor.regrets.decisionRound">Editor Decision, Round {$round}</message>
-	<message key="sectionEditor.regrets.regretsAndCancels">Reflecter Regrets &amp; Cancellations</message>
+	<message key="sectionEditor.regrets.regretsAndCancels">Reflector Regrets &amp; Cancellations</message>
 	<message key="sectionEditor.regrets.regret">Regret</message>
 	<message key="sectionEditor.regrets.result">Result</message>
-	<message key="sectionEditor.review.enrollReviewer">Enroll an Existing User As Reflecter</message>
-	<message key="sectionEditor.review.createReviewer">Create New Reflecter</message>
+	<message key="sectionEditor.review.enrollReviewer">Enroll an Existing User As Reflector</message>
+	<message key="sectionEditor.review.createReviewer">Create New Reflector</message>
 
 	<!-- Layout Editor -->
 	<message key="layoutEditor.activeEditorialAssignments">Active Editorial Assignments</message>
@@ -527,9 +527,9 @@ You may optionally provide the user with a reason for disabling their account.</
 	<!-- Used in submission review -->
 	<message key="reviewer.article.fileToBeReviewed">File to be considered</message>
 	<message key="reviewer.article.notifyTheEditor">Notify The Editor</message>
-	<message key="reviewer.article.canDoReview">Will serve as a peer-reflecter</message>
-	<message key="reviewer.article.cannotDoReview">Unable to serve as a reflecter</message>
-	<message key="reviewer.article.restrictedFileAccess">Submission will be made available, if and when reflecter accepts the request to serve</message>
+	<message key="reviewer.article.canDoReview">Will serve as a peer-reflector</message>
+	<message key="reviewer.article.cannotDoReview">Unable to serve as a reflector</message>
+	<message key="reviewer.article.restrictedFileAccess">Submission will be made available, if and when reflector accepts the request to serve</message>
 	<message key="reviewer.article.submissionEditor">Submission Editor</message>
 	<message key="reviewer.article.reviewerCommentsDescription">Please provide your reflections as annotations in context. If needed, you can insert comments here, but it is not necessary.</message>
 	<message key="reviewer.article.editorToEnter">Editor To Enter</message>
@@ -539,7 +539,7 @@ You may optionally provide the user with a reason for disabling their account.</
 	<message key="reviewer.article.submitReview">Submit Reflection To Facilitator</message>
 	<message key="reviewer.article.reviewerComments">Comments</message>
 	<message key="reviewer.article.uploadedFile">Uploaded files</message>
-	<message key="reviewer.article.reviewersAnnotatedVersion">Version uploaded by reflecter</message>
+	<message key="reviewer.article.reviewersAnnotatedVersion">Version uploaded by reflector</message>
 	<message key="reviewer.article.reviewersAnnotatedVersionDescription">(If you want to annotate the file, for the editor, save on your hard drive and use Browse/Upload.)</message>
 	<message key="reviewer.article.schedule.request">Editor's Request</message>
 	<message key="reviewer.article.schedule.response">Your Response</message>
@@ -555,18 +555,18 @@ You may optionally provide the user with a reason for disabling their account.</
 	<message key="reviewer.article.submissionToBeReviewed">Submission To Be Considered</message>
 	<message key="reviewer.article.reviewSchedule">Reflection Schedule</message>
 	<message key="reviewer.article.reviewSteps">Reflection Steps</message>
-	<message key="reviewer.article.reviewerGuidelines">Reflecter Guidelines</message>
+	<message key="reviewer.article.reviewerGuidelines">Reflector Guidelines</message>
 	<message key="reviewer.article.reviewGuidelinesDescription"><![CDATA[The Reflector Guidelines will provide reflecters with criteria for judging a submission's suitability for publication in the journal, and can include any special instructions for preparing an effective and helpful reflection. Upon engaging the submission, reflecters are presented with with two open text boxes, the first "for creator and editor," and the second "for editor." Alternatively, the Journal Manager can create a peer review form under Review Forms. In all cases, editors will have the option of including the reflections in corresponding with the creator.]]></message>
 	<message key="reviewer.article.notifyEditorA">Notify the submission's editor</message>
-	<message key="reviewer.article.notifyEditorB">as to whether you will serve as a reflecter.</message>
-	<message key="reviewer.article.consultGuidelines">If you are going to serve as a reflector, consult Reflecter Guidelines below.</message>
+	<message key="reviewer.article.notifyEditorB">as to whether you will serve as a reflector.</message>
+	<message key="reviewer.article.consultGuidelines">If you are going to serve as a reflector, consult Reflector Guidelines below.</message>
 	<message key="reviewer.article.downloadSubmission">Click on file names to download and reflect on (on screen or by printing) the files associated with this submission.</message>
 	<message key="reviewer.article.enterCompetingInterests"><![CDATA[Declare whether or not you have competing interests with regard to this research (see <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">CI&nbsp;Policy</a>).]]></message>
 	<message key="reviewer.competingInterests">Competing Interests</message>
 	<message key="reviewer.article.enterReviewA">We prefer that you include your reflections in context as annotations. If needed, you can instead click on icon to enter (or paste) your reflection of this submission.</message>
 	<message key="reviewer.article.uploadFile">In addition, you can upload files for the editor and/or creator to consult.</message>
 	<message key="reviewer.article.selectRecommendation">Select a recommendation and submit to complete the process. We ask you to provide your reflections in context before selecting a recommendation. For assistance in entering reflections in context, contact the Journal Facilitator (jfacilitator.meee@gmail.com)</message>
-	<message key="reviewer.article.selectRecommendation.byEditor">Set or adjust the reflecter recommendation.</message>
+	<message key="reviewer.article.selectRecommendation.byEditor">Set or adjust the reflector recommendation.</message>
 	<message key="reviewer.article.mustSelectDecision">No recommendation was selected. You must choose a recommendation to submit.</message>
 	<message key="reviewer.article.confirmDecision">Once you have recorded your recommendation you will no longer be able to make changes to this reflection. Are you sure you wish to continue?</message>
 
@@ -941,21 +941,21 @@ Your server currently supports mbstring: <strong>{$supportsMBString}</strong>]]>
 
 	<!-- Article Logs -->
 	<message key="log.author.documentRevised">{$authorName} has revised article {$submissionId}. The new file ID is {$fileId}.</message>
-	<message key="log.review.reviewerUnassigned">{$reviewerName} has been unassigned from serving as a reflecter on submission {$submissionId} for reflection round {$round}.</message>
+	<message key="log.review.reviewerUnassigned">{$reviewerName} has been unassigned from serving as a reflector on submission {$submissionId} for reflection round {$round}.</message>
 	<message key="log.review.reviewInitiated">The round {$round} reflection by {$reviewerName} for submission {$submissionId} has been initiated.</message>
 	<message key="log.review.reviewReinitiated">The round {$round} reflection by {$reviewerName} for submission {$submissionId} has been reinitiated.</message>
 	<message key="log.review.reviewCleared">The round {$round} reflection by {$reviewerName} for submission {$submissionId} has been cleared.</message>
 	<message key="log.review.reviewerRated">{$reviewerName} has been rated for the round {$round} reflection of submission {$submissionId}.</message>
 	<message key="log.review.reviewDueDateSet">The due date for the round {$round} reflection of submission {$submissionId} by {$reviewerName} has been set to {$dueDate}.</message>
 	<message key="log.review.reviewRecommendationSet">The recommendation for the round {$round} reflection of submission {$submissionId} by {$reviewerName} has been set.</message>
-	<message key="log.review.reviewRecommendationSetByProxy">The recommendation for the round {$round} reflection of submission {$submissionId} has been set by the editor, {$editorName}, on behalf of the reflecter, {$reviewerName}.</message>
+	<message key="log.review.reviewRecommendationSetByProxy">The recommendation for the round {$round} reflection of submission {$submissionId} has been set by the editor, {$editorName}, on behalf of the reflector, {$reviewerName}.</message>
 	<message key="log.review.resubmit">The submission {$submissionId} has been resubmitted for reflection.</message>
 	<message key="log.review.reviewDeclined">{$reviewerName} has declined the round {$round} reflection for submission {$submissionId}.</message>
 	<message key="log.review.reviewAccepted">{$reviewerName} has accepted the round {$round} reflection for submission {$submissionId}.</message>
 	<message key="log.review.reviewDeclinedByProxy">{$userName} has declined the round {$round} reflection for submission {$submissionId} on behalf of {$reviewerName}.</message>
 	<message key="log.review.reviewAcceptedByProxy">{$userName} has accepted the round {$round} reflection for submission {$submissionId} on behalf of {$reviewerName}.</message>
-	<message key="log.review.reviewFileByProxy">The Editor, {$userName}, has uploaded a reflection file for round {$round} of submission {$submissionId} on behalf of the reflecter, {$reviewerName}.</message>
-	<message key="log.review.reviewerFile">A reflecter file has been uploaded.</message>
+	<message key="log.review.reviewFileByProxy">The Editor, {$userName}, has uploaded a reflection file for round {$round} of submission {$submissionId} on behalf of the reflector, {$reviewerName}.</message>
+	<message key="log.review.reviewerFile">A reflector file has been uploaded.</message>
 	<message key="log.editor.decision">An editor decision ({$decision}) for article {$submissionId} was recorded by {$editorName}.</message>
 	<message key="log.editor.recommendation">An editor recommendation ({$decision}) for article {$submissionId} was recorded by {$editorName}.</message>
 
