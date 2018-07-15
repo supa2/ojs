@@ -11,7 +11,7 @@ ReflectionReflection<?xml version="1.0" encoding="UTF-8"?>
   * Localization strings.
   -->
 
-<locale name="en_MJ" full_name=“Murmurations Language”>
+<locale name="en_MJ" full_name="Murmurations Language">
 	<message key="admin.systemInfo.settingName">Setting Name</message>
 	<message key="admin.systemInfo.settingValue">Setting Value</message>
 	<message key="admin.adminFunctions">Administrative Functions</message>
