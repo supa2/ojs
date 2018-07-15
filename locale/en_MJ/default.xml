@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="en_MJ" full_name=“Murmurations Language”>
+<locale name="en_MJ" full_name="Murmurations Language">
 	<!-- Section default -->
 	<message key="section.default.title">Articles</message>
 	<message key="section.default.abbrev">ART</message>

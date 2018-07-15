@@ -11,6 +11,6 @@
   * Localization strings for the REST API.
   -->
 
-<locale name="en_MJ" full_name=“Murmurations Language”>
+<locale name="en_MJ" full_name="Murmurations Language">
 	<message key="api.submissions.403.unpublishedIssues">You do not have permission to view unpublished issues.</message>
 </locale>

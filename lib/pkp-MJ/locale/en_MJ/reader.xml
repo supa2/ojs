@@ -4,14 +4,14 @@
 <!--
   * locale/en_US/reader.xml
   *
-  * Copyright (c) 2014-2018 Simon Fraser University
-  * Copyright (c) 2000-2018 John Willinsky
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2000-2017 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings.
   -->
 
-<locale name="en_MJ" full_name=“Murmurations Language”>
+<locale name="en_MJ" full_name="Murmurations Language">
 	<message key="comments.anonymous">Anonymous User</message>
 	<message key="comments.anonymousNamed">"{$userName}"</message>
 	<message key="comments.body">Body</message>
@@ -40,7 +40,7 @@
 	<message key="rt.admin.contexts.createContext">Create Context</message>
 	<message key="rt.admin.contexts.edit.editContext">Edit Context</message>
 	<message key="rt.admin.contexts.metadata">Metadata</message>
-	<message key="rt.admin.contexts.options.authorTerms">Use creator names as default search terms to enable users to find other works by the authors for this item (e.g., for an "Other Works" context)</message>
+	<message key="rt.admin.contexts.options.authorTerms">Use creator names as default search terms to enable users to find other works by the creators for this item (e.g., for an "Other Works" context)</message>
 	<message key="rt.admin.contexts.options.citedBy">Use creator names as default search terms and describe the context as a search for citations to the article.</message>
 	<message key="rt.admin.contexts.options.defineTerms"><![CDATA[Use the word highlighted by the reader as default search term or be left blank if none has been selected for this item (e.g., for a "Definition of terms" context). The "Definition of terms" option must be enabled in the <a href="{$settingsUrl}">RST Settings</a> to allow double-clicking on words to open this context.]]></message>
 	<message key="rt.admin.contexts.options.geoTerms">Use geographical indexing data as default search terms.</message>
@@ -70,7 +70,7 @@
 	<message key="rt.admin.searches.edit.editSearch">Edit Search</message>
 	<message key="rt.admin.selectedVersion">Related items</message>
 	<message key="rt.admin.settings.abstract">Abstract (presents the item's abstract).</message>
-	<message key="rt.admin.settings.viewReviewPolicy">View Reflection Policy</message>
+	<message key="rt.admin.settings.viewReviewPolicy">View Review Policy</message>
 	<message key="rt.admin.settings.authorBio">About the creator (displays the bio statements entered by the creator).</message>
 	<message key="rt.admin.settings.captureCite">How to cite item (provides bibliographic detail for item).</message>
 	<message key="rt.admin.settings.defineTerms">Look up terms (enables readers to double-click on any word in an item and send the word to a dictionary).</message>
@@ -80,7 +80,7 @@
 	<message key="rt.admin.settings.findingReferences">Find References</message>
 	<message key="rt.admin.settings.printerFriendly">Print version (provides a printer-friendly version of an item).</message>
 	<message key="rt.admin.settings.supplementaryFiles">Supplementary files (displays list of files creator included with submission).</message>
-	<message key="rt.admin.settings.viewMetadata">Indexing metadata (displays item's indexing metadata provided by creator and system).</message>
+	<message key="rt.admin.settings.viewMetadata">Indexing metadata (displays item's indexing metadata provided by croeator and system).</message>
 	<message key="rt.admin.status">Status</message>
 	<message key="rt.admin.configureSharing">Configure AddThis</message>
 	<message key="rt.admin.validateUrls.complete">Validation complete.</message>
@@ -114,7 +114,7 @@
 	<message key="rt.context.searchTerms">Search Terms</message>
 	<message key="rt.context.termToDefine">Word to define</message>
 	<message key="rt.context.title">Title</message>
-	<message key="rt.emailAuthor">Email the author</message>
+	<message key="rt.emailAuthor">Email the creator</message>
 	<message key="rt.email.needLogin"><![CDATA[* Requires <a target="_parent" href="{$loginUrl}">registration</a>]]></message>
 	<message key="rt.email.sent">Your message has been sent.</message>
 	<message key="rt.findingReferences">Finding References</message>

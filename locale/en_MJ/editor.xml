@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="en_MJ" full_name=“Murmurations Language”>
+<locale name="en_MJ" full_name="Murmurations Language">
 	<message key="editor.home">Editor Home</message>
 	<message key="editor.reassign">Reassign</message>
 	<message key="editor.submissionsAndPublishing">Submissions and Publishing</message>
