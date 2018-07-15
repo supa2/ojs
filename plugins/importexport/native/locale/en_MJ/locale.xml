@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="en_US" full_name="U.S. English">
+<locale name="en_MJ" full_name="Murmurations">
 	<message key="plugins.importexport.native.displayName">Native XML Plugin</message>
 	<message key="plugins.importexport.native.description">Import and export articles and issues in OJS's native XML format.</message>
 	<message key="plugins.importexport.native.import">Import</message>

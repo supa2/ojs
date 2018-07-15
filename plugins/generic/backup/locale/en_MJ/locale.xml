@@ -10,8 +10,8 @@
   * Localization information: https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS
   * Localization strings.
   -->
- 
-<locale name="en_US" full_name="U.S. English">
+
+<locale name="en_MJ" full_name="Murmrations">
 	<message key="plugins.generic.backup.name">Backup Plugin</message>
 	<message key="plugins.generic.backup.description">This plugin generates a backup of the installation.</message>
 

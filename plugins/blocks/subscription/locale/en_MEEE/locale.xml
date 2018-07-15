@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="en_MEEE" full_name="Murmurations">
+<locale name="en_MJ" full_name="Murmurations">
 	<message key="plugins.block.subscription.displayName">Subscription Block</message>
 	<message key="plugins.block.subscription.description">This plugin provides sidebar subscription information.</message>
 	<message key="plugins.block.subscription.blockTitle">Subscription</message>

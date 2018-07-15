@@ -10,8 +10,8 @@
   * Localization information: https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS
   * Localization strings.
   -->
- 
-<locale name="en_US" full_name="U.S. English">
+
+<locale name="en_MJ" full_name="U.S. English">
 	<!-- plugin -->
 	<message key="plugins.generic.browse.displayName">Browse</message>
 	<message key="plugins.generic.browse.description">This plugin enables the browsing by sections and/or their identify types.</message>

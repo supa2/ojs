@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="en_MEEE" full_name=“Murmurations Language”>
+<locale name="en_MJ" full_name=“Murmurations Language”>
 	<message key="manager.website.archiving">Archiving</message>
 	<message key="manager.emails.confirmResetAll">Are you sure you want to reset all email templates in this journal? You will lose any customizations you have made.</message>
 	<message key="manager.files.note">Note: The Files Browser is an advanced feature that allows the files and directories associated with a journal to be viewed and manipulated directly.</message>
@@ -565,7 +565,7 @@
 	<message key="manager.setup.resetPermissions.description">Copyright statement and license information will be permanently attached to published content, ensuring that this data will not change in the case of a journal changing policies for new submissions. To reset stored permissions information already attached to published content, use the button below.</message>
 
 	<!-- Genres Grid -->
-	<message key="grid.genres.title.short">Components</message>
+	<message key="grid.genres.title.short">Components</message>MJ
 	<message key="grid.genres.title">Article Components</message>
 	<message key="grid.genres.description">These components are used for file-naming purposes and are presented in a pull-down menu on uploading files. The genres designated ## allow the user to associate the file with either the whole submission 99Z or a particular component by number (e.g., 02).</message>
 

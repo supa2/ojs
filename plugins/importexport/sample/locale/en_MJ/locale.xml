@@ -10,8 +10,8 @@
   * Localization information: https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS
   * Localization strings.
   -->
- 
-<locale name="en_US" full_name="U.S. English">
+
+<locale name="en_MJ" full_name="Murmurations">
 	<message key="plugins.importexport.sample.displayName">Sample Import/Export Plugin</message>
 	<message key="plugins.importexport.sample.description">This plugin provides an implementation example to be used when developing import/export plugins. It's not very useful in and of itself.</message>
 

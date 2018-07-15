@@ -10,7 +10,7 @@
   *
   * Localization strings.
   -->
- 
-<locale name="en_US" full_name="U.S. English">
+
+<locale name="en_MJ" full_name="Murmurations">
 	<message key="plugins.reports.counter.jr1.title">Journal Report 1</message>
 </locale>

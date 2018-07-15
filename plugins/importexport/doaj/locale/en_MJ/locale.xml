@@ -11,7 +11,7 @@
   * Localization strings
   -->
 
-<locale name="en_US" full_name="U.S. English">
+<locale name="en_MJ" full_name="Murmurations">
 	<message key="plugins.importexport.doaj.displayName">DOAJ Export Plugin</message>
 	<message key="plugins.importexport.doaj.description">Export Journal for DOAJ.</message>
 	<message key="plugins.importexport.doaj.export.contact">Contact DOAJ for inclusion</message>
@@ -20,10 +20,10 @@
 	<message key="plugins.importexport.doaj.settings.form.apiKey.description">You will find your API key on your DOAJ user page.</message>
 	<message key="plugins.importexport.doaj.settings.form.automaticRegistration.description">OJS will deposit articles automatically to DOAJ. Please note that this may take a short amount of time after publication to process (e.g. depending on your cronjob configuration). You can check for all unregistered articles.</message>
 	<message key="plugins.importexport.doaj.settings.form.testMode.description">Use the DOAJ test API (testing environment) for the registration. Please do not forget to remove this option for the production.</message>
-	  
+
 	<message key="plugins.importexport.doaj.senderTask.name">DOAJ automatic registration task</message>
 	<message key="plugins.importexport.doaj.register.error.mdsError">Deposit was not successful! The DOAJ API returned an error: '{$param}'.</message>
-	
+
 	<message key="plugins.importexport.doaj.cliUsage"><![CDATA[Usage:
 {$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
 ]]></message>

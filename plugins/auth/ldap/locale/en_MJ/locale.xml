@@ -10,11 +10,11 @@
   * Localization information: https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS
   * Localization strings.
   -->
- 
-<locale name="en_MEEE" full_name="Murmurations">
+
+<locale name="en_MJ" full_name="Murmurations">
 	<message key="plugins.auth.ldap.displayName">LDAP</message>
 	<message key="plugins.auth.ldap.description">This plugin allows for authentication and synchronization of user accounts against an external LDAP data source.</message>
-	
+
 	<message key="plugins.auth.ldap.settings">LDAP Settings</message>
 	<message key="plugins.auth.ldap.settings.hostname">Server hostname</message>
 	<message key="plugins.auth.ldap.settings.hostname.description">E.g., "ldap.example.com", or "ldaps://ldap.example.com" (to use SSL)</message>
