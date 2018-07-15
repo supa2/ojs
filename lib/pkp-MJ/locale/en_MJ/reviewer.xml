@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/reviewer.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings
+  -->
+
+<locale name="en_MJ" full_name=“Murmurations Language”>
+	<!-- Used in submission review -->
+	<message key="reviewer.reviewSteps.request">1. Request</message>
+	<message key="reviewer.reviewSteps.guidelines">2. Guidelines</message>
+	<message key="reviewer.reviewSteps.download">3. Download &amp; Reflection</message>
+	<message key="reviewer.reviewSteps.completion">4. Completion</message>
+	<message key="reviewer.step1.request">Request for Reflection</message>
+	<message key="reviewer.step1.requestBoilerplate">You have been selected as a potential reflector of the following submission.  Below is an overview of the submission, as well as the timeline for this reflection.  We hope that you are able to participate.</message>
+	<message key="reviewer.step1.viewAllDetails">View All Submission Details</message>
+	<message key="reviewer.submission.reviewerFiles">Reflector Files</message>
+	<message key="reviewer.submission.declineReview">Decline Reflection Request</message>
+	<message key="reviewer.submission.declineReviewMessage">You may provide the facilitator with any reasons why you are declining this request in the field below.</message>
+	<message key="reviewer.submission.acceptReview">Accept Reflection, Continue to Step #2</message>
+	<message key="reviewer.submission.continueToStepThree">Continue to Step #3</message>
+	<message key="reviewer.submission.submitReview">Submit Reflection</message>
+	<message key="reviewer.submission.reviewerGuidelines">Reflector Guidelines</message>
+	<message key="reviewer.submission.enterCompetingInterests">This publisher has a policy for disclosure of potential competing interests from its reflectors.  Please take a moment to review this policy.</message>
+	<message key="reviewer.submission.noCompetingInterests">I do not have any competing interests</message>
+	<message key="reviewer.submission.hasCompetingInterests">I may have competing interests (Specify below)</message>
+	<message key="reviewer.submission.competingInterests">Competing Interests</message>
+	<message key="reviewer.submission.guidelines">Reflection Guidelines</message>
+	<message key="reviewer.submission.noGuidelines">This publisher has not set any reflector guidelines.</message>
+	<message key="reviewer.submission.downloadDescription">Click on the file names below to download the files associated with this submission.</message>
+	<message key="reviewer.submission.reviewDescription">Enter (or paste) your reflection on this submission into the form below.</message>
+	<message key="reviewer.submission.uploadDescription">Upload files you would like the facilitator and/or creator to consult, including revised versions of the original reflection file(s).</message>
+	<message key="reviewer.complete">Reflection Submitted</message>
+	<message key="reviewer.confirmSubmit">Are you sure you want to submit this reflection?</message>
+	<message key="reviewer.complete.whatNext">Thank you for completing the reflection of this submission. Your reflection has been submitted successfully. We appreciate your contribution to the quality of the work that we publish; the facilitator may contact you again for more information if needed.</message>
+	<message key="reviewer.aboutDueDates">About Due Dates</message>
+	<message key="reviewer.aboutDueDates.text">The facilitator asks that you either accept or decline the request to serve as a reflector before the Response Due Date and complete the reflection by the Reflection Due Date.</message>
+	<message key="submission.comments.canShareWithAuthor">For creator and facilitator</message>
+	<message key="submission.comments.cannotShareWithAuthor">For facilitator only</message>
+	<message key="user.authorization.submissionReviewer">The current user is not assigned as a reflector for the requested document.</message>
+</locale>
