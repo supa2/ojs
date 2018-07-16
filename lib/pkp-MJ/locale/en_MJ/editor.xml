@@ -92,7 +92,7 @@
 	<message key="editor.submission.addAuditor">Assign Auditor</message>
 	<message key="editor.submission.copyedit.manageCopyeditFilesDescription">Any files that have already been uploaded to any submission stage can be added to the Copyedit Files listing by checking the Include checkbox below and clicking Search: all available files will be listed and can be chosen for inclusion. Additional files not already uploaded to a stage can be added to the listing by clicking the Upload File link.</message>
 	<message key="editor.review">In Reflection</message>
-	<message key="editor.review.reviewDetails">Reflection Details</message>
+	<message key="editor.review.reviewDetails">Review Details</message>
 	<message key="editor.review.noReviewFilesUploaded">No Files Uploaded</message>
 	<message key="editor.review.noReviewFilesUploaded.details">You have not uploaded any reflection files.</message>
 	<message key="editor.review.emailReviewer">Email Reflector</message>
