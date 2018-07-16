@@ -699,7 +699,7 @@
 			<NOTNULL/>
 		</field>
 		<field name="locale" type="C2" size="14">
-			<DEFAULT VALUE="en_US"/>
+			<DEFAULT VALUE="en_MJ"/>
 		</field>
 		<field name="title" type="C2" size="120">
 			<NOTNULL/>

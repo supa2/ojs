@@ -156,8 +156,8 @@
 
 	<!-- Issue #1328: Stop addressing single recipient in reviewer accept/decline emails -->
 	<sql>
-		<query>UPDATE email_templates_default_data SET body=REPLACE(body, '{$editorialContactName}', 'Editors') WHERE locale = 'en_US' AND email_key IN ('REVIEW_CONFIRM', 'REVIEW_DECLINE')</query>
-		<query>UPDATE email_templates_data SET body=REPLACE(body, '{$editorialContactName}', 'Editors') WHERE locale = 'en_US' AND email_key IN ('REVIEW_CONFIRM', 'REVIEW_DECLINE')</query>
+		<query>UPDATE email_templates_default_data SET body=REPLACE(body, '{$editorialContactName}', 'Editors') WHERE locale = 'en_MJ' AND email_key IN ('REVIEW_CONFIRM', 'REVIEW_DECLINE')</query>
+		<query>UPDATE email_templates_data SET body=REPLACE(body, '{$editorialContactName}', 'Editors') WHERE locale = 'en_MJ' AND email_key IN ('REVIEW_CONFIRM', 'REVIEW_DECLINE')</query>
 		<query>UPDATE email_templates_default_data SET body=REPLACE(body, '{$editorialContactName}', 'Herausgeber/innen') WHERE locale = 'de_DE' AND email_key IN ('REVIEW_CONFIRM', 'REVIEW_DECLINE')</query>
 		<query>UPDATE email_templates_data SET body=REPLACE(body, '{$editorialContactName}', 'Herausgeber/innen') WHERE locale = 'de_DE' AND email_key IN ('REVIEW_CONFIRM', 'REVIEW_DECLINE')</query>
 		<query>UPDATE email_templates_default_data SET body=REPLACE(body, '{$editorialContactName}', 'Επιμελητές') WHERE locale = 'el_GR' AND email_key IN ('REVIEW_CONFIRM', 'REVIEW_DECLINE')</query>
