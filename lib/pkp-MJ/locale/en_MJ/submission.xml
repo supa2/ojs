@@ -285,7 +285,7 @@
 	<message key="submission.event.general.metadataUpdated">Submission metadata updated</message>
 	<message key="submission.event.general.suppFileUpdated">Submission file updated</message>
 	<message key="submission.event.participantAdded">{$name} was assigned to this submission as a {$userGroupName}.</message>
-	<message key="submission.event.reviewer.reviewAcceptedByProxy">InReflection assignment accepted by proxy</message>
+	<message key="submission.event.reviewer.reviewAcceptedByProxy">Reflection assignment accepted by proxy</message>
 	<message key="submission.event.reviewer.reviewAccepted">Reflection assignment accepted</message>
 	<message key="submission.event.reviewer.reviewCancelled">Reflection assignment cancelled</message>
 	<message key="submission.event.reviewer.reviewDeclined">Reflection assignment declined</message>
@@ -359,7 +359,7 @@
 	<message key="submission.layout.newGalley">Create New Galley</message>
 	<message key="submission.layout.newSupplementaryFile">Upload New Supplementary File</message>
 	<message key="submission.layout.noStyleFile">No style sheet file has been added to this galley.</message>
-	<message key="submission.layout.supplementaryFiles">Supplementary File InReflection</message>
+	<message key="submission.layout.supplementaryFiles">Supplementary File Review</message>
 	<message key="submission.layout.viewingGalley">Viewing Submission Galley</message>
 	<message key="submission.layout.viewProof">View Proof</message>
 	<message key="submission.metadata">Submission Metadata</message>
@@ -384,7 +384,7 @@
 	<message key="submission.originalFile">Original file</message>
 	<message key="submission.page.editing">#{$id} Editing</message>
 	<message key="submission.page.history">#{$id} History</message>
-	<message key="submission.page.review">#{$id} InReflection</message>
+	<message key="submission.page.review">#{$id} Reflection</message>
 	<message key="submission.page.summary">#{$id} Summary</message>
 	<message key="submission.page.citations">#{$id} Citations</message>
 	<message key="submission.peerReview">Peer&amp;nbsp;Reflection</message>
@@ -395,7 +395,7 @@
 	<message key="submission.response">Response</message>
 	<message key="submission.restrictions">Restrictions</message>
 	<message key="submission.reviewMetadata">Reflection Metadata</message>
-	<message key="submission.review">InReflection</message>
+	<message key="submission.review">Reflection</message>
 	<message key="submission.reviewed">Reflected</message>
 	<message key="submission.reviewVersion">Reflection Version</message>
 	<message key="submission.rights">Rights</message>
@@ -420,7 +420,7 @@
 	<message key="submission.start">Start</message>
 	<message key="submission.submissionHistory">Submission History</message>
 	<message key="submission.submissionManuscript">Submission Manuscript</message>
-	<message key="submission.submissionReview">Submission InReflection</message>
+	<message key="submission.submissionReview">Submission Reflection</message>
 	<message key="submission.submitter">Submitter</message>
 	<message key="submission.submit.finishSubmission">Finish Submission</message>
 	<message key="submission.submit.selectFile">Select File</message>
@@ -526,7 +526,7 @@
 	<message key="editor.submission.noneAssigned">None Assigned</message>
 	<message key="editor.submission.participant">Participant</message>
 	<message key="editor.submission.addStageParticipant">Add Participant</message>
-	<message key="editor.submission.addStageParticipant.userGroup">Users are assigned to stages of the workflow by user group. Any user assigned to this stage will automatically be assigned to other stages to which their user group has been assigned. This is commonly reserved for editors, authors and translators.</message>
+	<message key="editor.submission.addStageParticipant.userGroup">Users are assigned to stages of the workflow by user group. Any user assigned to this stage will automatically be assigned to other stages to which their user group has been assigned. This is commonly reserved for editors, creators and translators.</message>
 	<message key="editor.submission.removeStageParticipant">Remove Participant</message>
 	<message key="editor.submission.removeStageParticipant.description"><![CDATA[You are about to remove this participant from <strong>all</strong> stages. If the user also have pending auditor tasks, they will be removed too.]]></message>
 	<message key="editor.submission.addStageParticipant.form.userGroupRequired">You must select a user group.</message>
@@ -536,7 +536,7 @@
 	<message key="editor.submission.decision">Decision</message>
 	<message key="editor.submission.decision.accept">Send to Copyediting</message>
 	<message key="editor.submission.decision.requestRevisions">Request Revisions</message>
-	<message key="editor.submission.decision.resubmit">Resubmit for InReflection</message>
+	<message key="editor.submission.decision.resubmit">Resubmit for Reflection</message>
 	<message key="editor.submission.decision.decline">Decline Submission</message>
 	<message key="editor.submission.decision.sendToProduction">Send To Production</message>
 	<message key="editor.submission.decision.sendInternalReview">Send to Internal Reflection</message>
@@ -549,7 +549,7 @@
 	<message key="submission.noActionRequired">No action required</message>
 	<message key="submission.actionNeeded">Needs action</message>
 
-	<message key="reviewer.submission.reviewFiles">InReflection Files</message>
+	<message key="reviewer.submission.reviewFiles">Reflection Files</message>
 	<message key="submission.submit.currentFile">Current file</message>
 	<message key="submission.finalDraft">Draft Files</message>
 

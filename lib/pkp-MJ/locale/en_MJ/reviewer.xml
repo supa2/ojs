@@ -15,7 +15,7 @@
 	<!-- Used in submission review -->
 	<message key="reviewer.reviewSteps.request">1. Request</message>
 	<message key="reviewer.reviewSteps.guidelines">2. Guidelines</message>
-	<message key="reviewer.reviewSteps.download">3. Download &amp; InReflection</message>
+	<message key="reviewer.reviewSteps.download">3. Download &amp; Reflect upon</message>
 	<message key="reviewer.reviewSteps.completion">4. Completion</message>
 	<message key="reviewer.step1.request">Request for Reflection</message>
 	<message key="reviewer.step1.requestBoilerplate">You have been selected as a potential reflector of the following submission.  Below is an overview of the submission, as well as the timeline for this reflection.  We hope that you are able to participate.</message>
@@ -31,16 +31,16 @@
 	<message key="reviewer.submission.noCompetingInterests">I do not have any competing interests</message>
 	<message key="reviewer.submission.hasCompetingInterests">I may have competing interests (Specify below)</message>
 	<message key="reviewer.submission.competingInterests">Competing Interests</message>
-	<message key="reviewer.submission.guidelines">InReflection Guidelines</message>
+	<message key="reviewer.submission.guidelines">Reflection Guidelines</message>
 	<message key="reviewer.submission.noGuidelines">This publisher has not set any reflection guidelines.</message>
 	<message key="reviewer.submission.downloadDescription">Click on the file names below to download the files associated with this submission.</message>
-	<message key="reviewer.submission.reviewDescription">Please enter your reflections in context of the manuscript; your comments will be viewable by others. You can also enter (or paste) your reflection of this submission into the form below, but these comments can only be seen by the section facilitator.</message>
+	<message key="reviewer.submission.reviewDescription">Please enter your reflections in context of the manuscript by clicking on the title of the submission above. The submission will be diplayed in a new window. Choose the creator name(s) and annotate in context; your comments will be public. You can also enter (or paste) your reflection of this submission into the form below, but these comments can only be seen by the section facilitator.</message>
 	<message key="reviewer.submission.uploadDescription">Upload files you would like the editor and/or creator to consult, including revised versions of the original reflection file(s).</message>
 	<message key="reviewer.complete">Reflection Submitted</message>
 	<message key="reviewer.confirmSubmit">Are you sure you want to submit this reflection?</message>
-	<message key="reviewer.complete.whatNext">Thank you for reflecting of this submission. Your reflection has been submitted successfully. We appreciate your contribution to the quality of the work that we publish; the editor may contact you again for more information if needed.</message>
+	<message key="reviewer.complete.whatNext">Thank you for reflecting of this submission. Your reflection has been submitted successfully. We appreciate your thoughtful contributions to the larger community. The journal facilitator may contact you again for more information if needed.</message>
 	<message key="reviewer.aboutDueDates">About Due Dates</message>
-	<message key="reviewer.aboutDueDates.text">The facilitator asks that let us know if you will serve as a Reflector by the Response Date and that you complete your reflection by the Reflection Due Date.</message>
+	<message key="reviewer.aboutDueDates.text">The facilitator asks that you let us know if you will serve as a Reflector by the Response Date and that you complete your reflection by the Reflection Due Date.</message>
 	<message key="submission.comments.canShareWithAuthor">For creator and facilitator</message>
 	<message key="submission.comments.cannotShareWithAuthor">For facilitator only</message>
 	<message key="user.authorization.submissionReviewer">The current user is not assigned as a reflector for the requested document.</message>
