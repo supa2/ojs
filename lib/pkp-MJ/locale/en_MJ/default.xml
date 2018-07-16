@@ -42,9 +42,9 @@
 	<message key="default.groups.name.layoutEditor">Layout Editor</message>
 	<message key="default.groups.plural.layoutEditor">Layout Editors</message>
 	<message key="default.groups.abbrev.layoutEditor">LE</message>
-	<message key="default.groups.name.author">Author</message>
-	<message key="default.groups.plural.author">Authors</message>
-	<message key="default.groups.abbrev.author">AU</message>
+	<message key="default.groups.name.author">Creator</message>
+	<message key="default.groups.plural.author">Creators</message>
+	<message key="default.groups.abbrev.author">CR</message>
 	<message key="default.groups.name.translator">Translator</message>
 	<message key="default.groups.plural.translator">Translators</message>
 	<message key="default.groups.abbrev.translator">Trans</message>
